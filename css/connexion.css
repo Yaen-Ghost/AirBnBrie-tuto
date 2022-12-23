@@ -69,7 +69,7 @@ body{
   /* Calcul du padding 
    H = 150 * width / L = 100
   */
-  background-image  : url(Photos/Fonds/Poster-Foto-Tapete-Vlies-020.jpg);
+  background-image  : url(../Img/Fonds/Poster-Foto-Tapete-Vlies-020.jpg);
   background-repeat : no-repeat;
   background-size: cover;
   background-position: fixed;
