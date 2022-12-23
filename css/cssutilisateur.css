@@ -4,7 +4,7 @@ body{
   /* Calcul du padding 
    H = 150 * width / L = 100
   */
-  background-image  : url(Images/background.jpg);
+  background-image : url(../Img/Utilisateur/background.jpg);
   background-repeat : no-repeat;
   background-size: cover;
   background-position: fixed;
