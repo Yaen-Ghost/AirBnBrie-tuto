@@ -84,3 +84,12 @@ body {
   .margin{
     margin: -5px;
   }
+
+  .navbar{
+    background-color:#049af19c;
+    margin-bottom:0px;
+    border-radius:0;
+    font-weight:bold;
+    height: 200px;
+    font-size: 17px;
+  }
