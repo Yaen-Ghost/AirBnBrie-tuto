@@ -8,3 +8,12 @@
 .items-center{
     text-align: center;
 }
+
+body{
+    background-image : url(Img\Fonds\Quiz.jpg);
+    background-repeat : no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    background-position: center;
+    height: 550px;
+    }
