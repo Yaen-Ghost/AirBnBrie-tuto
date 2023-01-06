@@ -1,0 +1,12 @@
+.navbar-nav,
+.me-auto {
+flex: 1;
+margin: auto !important;
+display: flex;
+justify-content: space-between;
+}
+
+.font{
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 40px;
+  }
