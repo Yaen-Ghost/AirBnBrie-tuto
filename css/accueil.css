@@ -1,3 +1,33 @@
 body{
     margin: 0px;
 }
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.paragrapheaccueil{
+    width: 400px;
+    background-color: #777777;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 50px;
+    font-family: 'Asap Condensed', sans-serif;
+    word-spacing: 4px;
+    text-align: justify;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+#corse{
+    margin-top: 170px;
+    padding-right: 100px;
+}
