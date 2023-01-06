@@ -14,17 +14,14 @@ header{
 
 .banniere{
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: space-between;
-  align-items: flex-end;
-  color: white;
-  align-self: flex-start;
-  position: absolute;
-  width: 150px;
-  transform: translate(-50%);
+  align-items: flex-end; 
   top: 0;
   margin-left: 20px;
   margin-right: 20px;
-  margin-bottom: 5px;
+  margin-bottom: 150px;
   }
 
   .recherche{
@@ -39,10 +36,6 @@ body {
   background-attachment: fixed;
   height: 550px;
   margin: 0px;
-  }
-
-  a:link{
-    color: white;
   }
 
   .cadre{
@@ -60,4 +53,19 @@ body {
 
   .text-center{
     text-align: center;
+}
+
+a:link{
+  color: white;
+  text-decoration: none;
+}
+
+a:visited{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: aqua;
+  text-decoration: none;
 }
