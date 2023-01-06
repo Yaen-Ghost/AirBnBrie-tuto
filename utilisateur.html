@@ -11,6 +11,11 @@
 </head>
 
 <body class="container marges">
+
+    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success" type="submit">Search</button>
+
+    
     <div class="encadre-profil item1">
 
         <div class="whiteshit1"><iconify-icon icon="carbon:dot-mark" width="17" height="17"></iconify-icon></div>
@@ -117,38 +122,40 @@
 
         <br>
         <h3 class="fondtitres">🤤 Cheeselist</h3>
-        <table class="tableau">
-            <th colspan="4" class="bg-titre" onclick="$('.truc1').css('display', 'table-row')">+ Île-de-France</th>
-            <tr class="bg-grey truc1">
-                <td>Image</td>
-                <td>Coulommiers</td>
-                <td><iconify-icon icon="material-symbols:heart-plus-outline" class="icons"></iconify-icon></td>
-                <td><iconify-icon icon="radix-icons:cross-circled"></iconify-icon></td>
-            </tr>
-            <tr class="bg-white truc1">
-                <td>Image</td>
-                <td>Brie de Melun</td>
-                <td><iconify-icon icon="material-symbols:heart-plus-outline" class="icons"></iconify-icon></td>
-                <td><iconify-icon icon="radix-icons:cross-circled"></iconify-icon></td>
-            </tr>
-            <tr class="bg-grey truc1">
-                <td>Image</td>
-                <td>Nanteau</td>
-                <td><iconify-icon icon="material-symbols:heart-plus-outline" class="icons"></iconify-icon></td>
-                <td><iconify-icon icon="radix-icons:cross-circled"></iconify-icon></td>
-            </tr>
-            <tr class="bg-white truc1">
-                <td>Image</td>
-                <td>Boursault</td>
-                <td><iconify-icon icon="material-symbols:heart-plus-outline" class="icons"></iconify-icon></td>
-                <td><iconify-icon icon="radix-icons:cross-circled"></iconify-icon></td>
-            </tr>
-        </table>
-
+        <div id="nav"><p>MENU</p>
+            <table class="tableau">
+                <!-- <th colspan="4" class="bg-titre"></th> -->
+                <tr class="bg-grey d-n">
+                    <td>Image</td>
+                    <td>Coulommiers</td>
+                    <td><iconify-icon icon="material-symbols:heart-plus-outline" class="icons"></iconify-icon></td>
+                    <td><iconify-icon icon="radix-icons:cross-circled"></iconify-icon></td>
+                </tr>
+                <tr class="bg-white d-n">
+                    <td>Image</td>
+                    <td>Brie de Melun</td>
+                    <td><iconify-icon icon="material-symbols:heart-plus-outline" class="icons"></iconify-icon></td>
+                    <td><iconify-icon icon="radix-icons:cross-circled"></iconify-icon></td>
+                </tr>
+                <tr class="bg-grey d-n">
+                    <td>Image</td>
+                    <td>Nanteau</td>
+                    <td><iconify-icon icon="material-symbols:heart-plus-outline" class="icons"></iconify-icon></td>
+                    <td><iconify-icon icon="radix-icons:cross-circled"></iconify-icon></td>
+                </tr>
+                <tr class="bg-white d-n">
+                    <td>Image</td>
+                    <td>Boursault</td>
+                    <td><iconify-icon icon="material-symbols:heart-plus-outline" class="icons"></iconify-icon></td>
+                    <td><iconify-icon icon="radix-icons:cross-circled"></iconify-icon></td>
+                </tr>
+            </table>
+        </div>
     </div>
 
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"
+        integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+    <script src="JS/tableauutil.js"></script>
 </body>
 
 </html>
