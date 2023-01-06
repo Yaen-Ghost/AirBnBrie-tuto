@@ -10,3 +10,11 @@ justify-content: space-between;
     font-family: 'Alumni Sans', sans-serif;
     font-size: 40px;
   }
+
+  .btn {
+    text-transform: unset !important;
+  }
+
+  .dropdown-menu {
+    width: 100%;
+    }
