@@ -55,25 +55,22 @@ li {
   background-position: center;
   padding: 5px;
   border-radius: 5px;
+  width: 600px;
+    height: 500px;
 }
 
 body {
   background-image : url(../Img/tendre-bleu.jpg);
   background-repeat : no-repeat;
   background-size: cover;
-  background-position: fixed;
-  background-position:center;
-  height: 550px;
+  background-position: center;
+  background-attachment: fixed;
   }
 
   .text-justify {
     max-width: 500px;
     margin: 0 auto;
     text-align: justify;
-  }
-
-  #cadre {
-    border-radius: 5px;
   }
 
   .info{
@@ -92,4 +89,13 @@ body {
     font-weight:bold;
     height: 200px;
     font-size: 17px;
+  }
+
+  /* .taillefixecarousel{
+    width: 200px;
+    height: 400px;
+  } */
+
+  .flechescarousel{
+    padding-right: -100px;
   }
