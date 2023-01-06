@@ -1,0 +1,29 @@
+
+footer{
+  background-image : url(Air-B-N-Brie/Img/Footerblanc.jpg);
+  background-repeat : no-repeat;
+  background-size: cover;
+  background-position: fixed;
+  background-position:center;
+  height: 1000px;
+  width: auto;
+}
+
+
+  .text-justify {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: justify;
+  }
+
+  .text-center{
+    text-align: center;
+}
+
+
+.reseau{
+  text-align: center;
+  height: 5px;
+  width: 5px;
+}
+
