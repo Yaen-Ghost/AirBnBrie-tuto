@@ -5,9 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/accueil.css">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed&display=swap" rel="stylesheet"> 
+    <title>Accueil</title>
+    <style>
+        .hidden{
+          display: none;
+        }
+      </style>
 </head>
 <body>
-    
+    <main class="container">
+        <img src="/Img/carte temp.png" width="500px" alt="carte de France" usemap="#mymap">
+        <map name="mymap">
+            <area alt="Hauts-de-France" shape="rect" coords="231,0,327,129" href="https://stacklima.com/comment-creer-une-image-cliquable-en-javascript/">
+
+            <area alt="Normandie" shape="rect" coords="107,76,223,153" href="https://stacklima.com/comment-creer-une-image-cliquable-en-javascript/">
+
+            <area alt="Bretagne" shape="rect" coords="11,141,127,203" href="https://stacklima.com/comment-creer-une-image-cliquable-en-javascript/">
+
+            <area alt="Pays de la Loire" shape="rect" coords="125,170,192,267" href="https://stacklima.com/comment-creer-une-image-cliquable-en-javascript/">
+
+            <area alt="Centre Val de Loire" shape="rect" coords="203,171,292,283" href="https://stacklima.com/comment-creer-une-image-cliquable-en-javascript/">
+
+            <area alt="Ile de France" shape="rect" coords="230,123,301,184" href="https://stacklima.com/comment-creer-une-image-cliquable-en-javascript/">
+
+            <area alt="Grand Est" shape="rect" coords="331,76,460,200" href="https://stacklima.com/comment-creer-une-image-cliquable-en-javascript/">
+
+            <area alt="Bourgogne Franche Comte" shape="rect" coords="295,184,429,288" href="https://stacklima.com/comment-creer-une-image-cliquable-en-javascript/">
+
+            <area alt="Nouvelle Aquitaine" shape="rect" coords="150,278,222,467" href="https://stacklima.com/comment-creer-une-image-cliquable-en-javascript/">
+
+            <area alt="Auvergne Rhone Alpes" shape="rect" coords="275,289,431,387" href="https://stacklima.com/comment-creer-une-image-cliquable-en-javascript/">
+
+            <area alt="Occitanie" shape="rect" coords="220,390,343,494" href="https://stacklima.com/comment-creer-une-image-cliquable-en-javascript/">
+
+            <area alt="PACA" shape="rect" coords="360,389,465,473" href="https://stacklima.com/comment-creer-une-image-cliquable-en-javascript/">
+
+            <area alt="Corse" shape="rect" coords="429,497,472,581" href="#0" id="explosion">
+                <img src="Img/explosion.gif" class="hidden" id="corse">
+
+        </map>
+
+        <p class="paragrapheaccueil">
+            Troisième producteur de fromages au monde, le France est le premier pays à exporter ses produits. Souvent surnommé « le pays du fromage », la France produit environ 400 types de fromages. Au lait cru, au lait pasteurisé, à pâte molle ou à croûte fleurie, laissez-vous transporter dans une ancestrale découverte gustative.
+        </p>
+    </main>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>
+        $.fn.center = function () {
+          this.css("position","absolute");
+          this.css("top", Math.max(0, (($(window).height() - $(this).outerHeight()) / 2) + $(window).scrollTop()) + "px");
+          this.css("left", Math.max(0, (($(window).width() - $(this).outerWidth()) / 2) + $(window).scrollLeft()) + "px");
+          return this;
+        }
+  
+        $("#explosion").on("click", function(){
+          $("#corse").fadeIn().center();
+          setTimeout(function(){
+            $("#corse").fadeOut()
+          }, 850);
+        });
+      </script>
+
 </body>
 </html>

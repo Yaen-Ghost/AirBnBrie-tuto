@@ -1,3 +1,28 @@
 body{
     margin: 0px;
 }
+
+.imagefromage{
+    width: 350px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.mois{
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+}
+
+.pikachu{
+    text-align: center;
+    line-height: 8px;
+    margin: 30px;
+}
+
+main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: space-between;
+}
