@@ -20,6 +20,7 @@ body{
     overflow: hidden;
     margin: 0;
  }
+
  button{
     background-color: #03cae4;
     color: #fff;
@@ -39,7 +40,6 @@ body{
     width: 800px;
     height: 500px;
     text-align: center;
-<<<<<<< HEAD
     overflow: hidden;
     margin-right: 350px;
 }
@@ -80,15 +80,4 @@ body{
     visibility: hidden;
 }
 
-=======
-}
 
-body{
-    background-image : url(Img\Fonds\Quiz.jpg);
-    background-repeat : no-repeat;
-    background-size: cover;
-    background-position: fixed;
-    background-position: center;
-    height: 550px;
-    }
->>>>>>> dfa16b8941e9b0efdb2d016dbb8c535771649029
