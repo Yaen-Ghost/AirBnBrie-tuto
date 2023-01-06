@@ -5,19 +5,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS&link Anais -->
     <link rel="stylesheet" href="css/Historique.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- CSS&Link Seb -->
+    <link rel="stylesheet" href="css\Header Bootstrap.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@100&display=swap" rel="stylesheet">
     <title>Historique</title>
 </head>
 
 
 <body>
     <header>
-        <div class="text-center">
-            <img src="Img\Logo.png" alt="" height="250">
-        </div>
-    </header>
+        <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg navbar-light bg-black">
+         <div class="container-fluid d-flex font">  
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <!-- Menu navbar -->
+             <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-end">
+               <li class="nav-item">
+                 <a class="nav-link text-white" href="accueil.html">Accueil</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link text-white" href="tous les fromages.html">Tous les fromages</a>
+               </li>
+               <li class="nav-item order-2">
+                 <a class="nav-link text-white" href="au fil des saisons.html">Au fil des saisons</a>
+               </li>
+               <!-- Menu deroulant -->
+             <div class="dropdown order-3">
+                 <button class="btn btn-black fs-1 text dropdown-toggle" type="button" id="dropdownMenu2" data-mdb-toggle="dropdown" aria-expanded="false">
+                   Fourme-Tout
+                 </button>
+                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                   <li><a class="fs-3 text dropdown-item" href="Page Historique1.html">Historique</a></li>
+                   <li><a class="fs-3 text dropdown-item" href="recettes.html">Recettes</a></li>
+                   <li><a class="fs-3 text dropdown-item" href="Quizz les fromages.html">Quiz</a></li>
+                   <li><a class="fs-3 text dropdown-item" href="adresses utiles.html">Adresses utiles</a></li>
+                 </ul>
+             </div>
+             <div class="d-flex align-items-center">
+                 <a class="nav-link text-white" href="accueil.html">
+                 <img src="Img\Logo\Logoblanc.png" height="150" width="150" alt="Logo"/></a>
+             </div>
+             </ul>
+           </div>
+         </div>
+       </nav>
+       <!-- Navbar -->
+     </header>
 
     <div class="container d-flex justify-content-center">
         <div id="carouselExampleIndicators" class="carousel slide w-50 encadrer-un-contenu">
@@ -123,7 +162,7 @@
                 </div>
 
             </div>
-            <button class="carousel-control-prev text-black" type="button" data-bs-target="#carouselExampleIndicators"
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
                 data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
@@ -137,9 +176,10 @@
 
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
+     <!-- Script -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+     <!-- MDB -->
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
 
 </body>
 
