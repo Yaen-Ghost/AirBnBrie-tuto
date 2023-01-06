@@ -1,5 +1,6 @@
 .text-center{
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .items-center{
@@ -49,18 +50,15 @@ li {
 }
 
 .encadrer-un-contenu{
-  background-color:rgba(255, 255, 255, 0.5);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  padding: 5px;
+  background-color:rgba(255, 255, 255, 0.7);
+  padding: 15px;
   border-radius: 5px;
-  width: 600px;
-    height: 500px;
+  width: 400px;
+    height: 540px;
 }
 
 body {
-  background-image : url(../Img/tendre-bleu.jpg);
+  background-image : url(../Img/Fonds/tendre-bleu.jpg);
   background-repeat : no-repeat;
   background-size: cover;
   background-position: center;
@@ -78,9 +76,9 @@ body {
     align-items: center;
   }
   
-  .margin{
-    margin: -5px;
-  }
+  .bg-black{
+    background-color: #ffffff;
+}
 
   .navbar{
     background-color:#049af19c;
@@ -91,11 +89,9 @@ body {
     font-size: 17px;
   }
 
-  /* .taillefixecarousel{
-    width: 200px;
-    height: 400px;
-  } */
-
-  .flechescarousel{
-    padding-right: -100px;
-  }
+  /* COULEUR FLECHES EN NOIR */
+  .carousel-control-next,
+.carousel-control-prev, 
+.carousel-indicators/*, .carousel-indicators */ {
+    filter: invert(100%);
+}
