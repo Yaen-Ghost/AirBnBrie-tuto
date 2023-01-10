@@ -26,7 +26,8 @@ footer {
 }
 
 .logo{
-  text-align:center;
+  display : flex;
+  justify-content: center;
   margin-top: 50px;
   margin-right: 50px;
 }
@@ -42,3 +43,15 @@ footer {
   font-size: 40px;
   font-weight: bold;
 }
+
+
+.img:hover{
+
+-webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+filter: grayscale(0%); /* Firefox */ }
+
+.img{
+
+-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+filter: grayscale(100%); /* Firefox */ }
+
