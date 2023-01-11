@@ -1,0 +1,59 @@
+
+footer {
+    background-image : url(../Img/Footerblanc.jpg);
+    background-repeat : no-repeat;
+    background-size: contain;
+    height: 500px;
+    width:auto;
+    position: relative;
+    bottom: 0px;
+    background-position: bottom;
+    }
+
+
+  .text-justify {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: justify;
+  }
+
+  .text-center{
+    text-align: center;
+}
+
+
+.reseau{
+  text-align: center;
+  height: 5px;
+  width: 5px;
+}
+
+.logo{
+  display : flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+.text{
+  text-align:center;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.font{
+  font-family: 'Alumni Sans', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+
+.img:hover{
+
+-webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+filter: grayscale(0%); /* Firefox */ }
+
+.img{
+
+-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+filter: grayscale(100%); /* Firefox */ }

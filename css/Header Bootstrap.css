@@ -11,9 +11,15 @@ justify-content: space-between;
     font-size: 40px;
   }
 
-  .btn {
+  .bouton {
     text-transform: unset !important;
   }
+
+  .nopaddingBouton {
+    padding: 0 !important;
+    padding-bottom: 9px !important;
+    margin: 0 !important;
+}
 
   .dropdown-menu {
     width: 100%;

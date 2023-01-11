@@ -8,12 +8,19 @@
     <!-- CSS&link Anais -->
     <link rel="stylesheet" href="css/Historique.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- CSS&Link Seb -->
     <link rel="stylesheet" href="css\Header Bootstrap.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@100&display=swap" rel="stylesheet">
+    <!-- CSS&Link Alexia -->
+    <link rel="stylesheet" href="css/FooterNoir.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@100&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+
     <title>Historique</title>
 </head>
 
@@ -21,42 +28,38 @@
 <body>
     <header>
         <!-- Navbar -->
-     <nav class="navbar navbar-expand-lg navbar-light bg-black">
-         <div class="container-fluid d-flex font">  
-           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-             <!-- Menu navbar -->
-             <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-end">
-               <li class="nav-item">
-                 <a class="nav-link text-white" href="accueil.html">Accueil</a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link text-white" href="tous les fromages.html">Tous les fromages</a>
-               </li>
-               <li class="nav-item order-2">
-                 <a class="nav-link text-white" href="au fil des saisons.html">Au fil des saisons</a>
-               </li>
-               <!-- Menu deroulant -->
-             <div class="dropdown order-3">
-                 <button class="btn btn-black fs-1 text dropdown-toggle" type="button" id="dropdownMenu2" data-mdb-toggle="dropdown" aria-expanded="false">
-                   Fourme-Tout
-                 </button>
-                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                   <li><a class="fs-3 text dropdown-item" href="Page Historique1.html">Historique</a></li>
-                   <li><a class="fs-3 text dropdown-item" href="recettes.html">Recettes</a></li>
-                   <li><a class="fs-3 text dropdown-item" href="Quizz les fromages.html">Quiz</a></li>
-                   <li><a class="fs-3 text dropdown-item" href="adresses utiles.html">Adresses utiles</a></li>
-                 </ul>
-             </div>
-             <div class="d-flex align-items-center">
-                 <a class="nav-link text-white" href="accueil.html">
-                 <img src="Img\Logo\Logoblanc.png" height="150" width="150" alt="Logo"/></a>
-             </div>
-             </ul>
-           </div>
-         </div>
-       </nav>
-       <!-- Navbar -->
-     </header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-black">
+            <div class="container-fluid d-flex justify-content-center font">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-end">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="accueil.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="tous les fromages.html">Tous les fromages</a>
+                    </li>
+                    <div class="">
+                        <a class="nav-link text-white" href="accueil.html">
+                            <img src="Img\Logo\Logoblanc.png" height="150" width="150" alt="Logo" /></a>
+                    </div>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="au fil des saisons.html">Au fil des saisons</a>
+                    </li>
+                    <!-- Menu deroulant -->
+                    <div class="dropdown">
+                        <button class="nopaddingBouton bouton btn btn-black fs-1 text dropdown-toggle" type="button"
+                            id="dropdownMenu2" data-mdb-toggle="dropdown" aria-expanded="false">
+                            Fourme-Tout
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <li><a class="fs-3 text dropdown-item" href="Page Historique1.html">Historique</a></li>
+                            <li><a class="fs-3 text dropdown-item" href="recettes.html">Recettes</a></li>
+                            <li><a class="fs-3 text dropdown-item" href="Quizz les fromages.html">Quiz</a></li>
+                            <li><a class="fs-3 text dropdown-item" href="adresses utiles.html">Adresses utiles</a></li>
+                        </ul>
+                    </div>
+        </nav>
+        <!-- Navbar -->
+    </header>
 
     <div class="container d-flex justify-content-center">
         <div id="carouselExampleIndicators" class="carousel slide w-50 encadrer-un-contenu">
@@ -77,28 +80,30 @@
                     <div class="text-justify text-center">
                         <h1 class="text-center">La préhistoire</h1>
                         <h5>3 millions d’années avant JC.</h5>
-                            <p>Préshitoire - Paléolithique.
-                                <br />
-                            Maîtrise du feu, 1ers outils, Cuisson des aliments.</p>
-                        <h5>10 000 avant JC.</h5>
-                            <p>Début de l’élevage (Moyen-Orient, Asie, Europe).</p>
-                        <h5>3000 avant JC.</h5>
-                            <p>Age de bronze.
+                        <p>Préshitoire - Paléolithique.
                             <br />
-                        1ère faisselle pour égoutter le caillé et faire du fromage.
-                        <br />
-                        Apparition des 1ères barattes pour fabriquer le beurre chez les Sumériens.</p>
+                            Maîtrise du feu, 1ers outils, Cuisson des aliments.
+                        </p>
+                        <h5>10 000 avant JC.</h5>
+                        <p>Début de l’élevage (Moyen-Orient, Asie, Europe).</p>
+                        <h5>3000 avant JC.</h5>
+                        <p>Age de bronze.
+                            <br />
+                            1ère faisselle pour égoutter le caillé et faire du fromage.
+                            <br />
+                            Apparition des 1ères barattes pour fabriquer le beurre chez les Sumériens.
+                        </p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="text-justify text-center">
                         <h1 class="text-center">L’antiquité</h1>
                         <h5>1400 avant JC.</h5>
-                            <p>1ers fromages en Mésopotamie et en Inde.</p>
+                        <p>1ers fromages en Mésopotamie et en Inde.</p>
                         <h5>1000 avant JC : âge du fer.</h5>
-                            <p>Fabrication régulière de beurre en Inde.</p>
+                        <p>Fabrication régulière de beurre en Inde.</p>
                         <h5>500 avant JC : Gaulois.</h5>
-                            <p>Le fromage est un aliment du soldat romain.</p>
+                        <p>Le fromage est un aliment du soldat romain.</p>
                         <h5>100 avant JC : Empire romain.</h5>
                         <p>1ers gros fromages à pâte pressée.</p>
                     </div>
@@ -107,11 +112,12 @@
                     <div class="text-justify text-center">
                         <h1 class="text-center">Le Moyen-Age</h1>
                         <h5>500 après JC.</h5>
-                            <p>Apparition du Brie et du Roquefort.
-                                <br />
-                            Les troupeaux des Vikings s’installent en Normandie.</p>
+                        <p>Apparition du Brie et du Roquefort.
+                            <br />
+                            Les troupeaux des Vikings s’installent en Normandie.
+                        </p>
                         <h5>900 après JC.</h5>
-                            <p>Rôle crucial des monastères dans la fabrication et affinage des fromages avec la création de
+                        <p>Rôle crucial des monastères dans la fabrication et affinage des fromages avec la création de
                             nombreux fromages (Munster, Beaufort, Gruyère, St Marcellin …).</p>
                         <p>Invention de la baratte à piston.<br />
                             Apparition d’autres fromages : comté, saint-nectaire …</p>
@@ -124,16 +130,17 @@
                     <div class="text-justify text-center">
                         <h1 class="text-center">Les Grandes découvertes et la Renaissance</h1>
                         <h5>1500</h5>
-                            <p>Le lait est vendu en ville. 1ères règlementations d’hygiène.<br />
+                        <p>Le lait est vendu en ville. 1ères règlementations d’hygiène.<br />
                             Les Mongols font connaître le lait fermenté au cours de leurs invasions.
                             <br />
                             Création du fromage Neufchâtel en Braye.
                             <br />
-                            Apparition du Reblochon.</p>
+                            Apparition du Reblochon.
+                        </p>
                         <h5>1000 avant JC : âge du fer.</h5>
-                            <p>Fabrication régulière de beurre en Inde.</p>
+                        <p>Fabrication régulière de beurre en Inde.</p>
                         <h5>500 avant JC : Gaulois.</h5>
-                            <p>Le fromage est un aliment du soldat romain.</p>
+                        <p>Le fromage est un aliment du soldat romain.</p>
                         <h5>100 avant JC : Empire romain.</h5>
                         <p>1ers gros fromages à pâte pressée.</p>
                     </div>
@@ -142,19 +149,21 @@
                     <div class="text-justify text-center">
                         <h1 class="text-center">Le siècle des Lumières</h1>
                         <h5>1700</h5>
-                           <p>Le fromage commence à voyager (le Livarot arrive à Paris).
+                        <p>Le fromage commence à voyager (le Livarot arrive à Paris).
                             <br />
-                        1ère mesures sanitaires concernant la santé des animaux.
-                        <br />
+                            1ère mesures sanitaires concernant la santé des animaux.
+                            <br />
                             Expériences d’amélioration des races par croisement.
                             <br />
-                            Création du Vacherin Mont d’or.</p>
+                            Création du Vacherin Mont d’or.
+                        </p>
                         <h5>1740</h5>
-                           <p> 1ères écoles vétérinaires.
+                        <p> 1ères écoles vétérinaires.
                             <br />
-                            Les sociétés d’agriculture fondent la science agronomique.</p>
+                            Les sociétés d’agriculture fondent la science agronomique.
+                        </p>
                         <h5>1780</h5>
-                           <p>Amélioration des races bovines par croisement entériné.</p> 
+                        <p>Amélioration des races bovines par croisement entériné.</p>
                         <h5>1791</h5>
                         <p>Une fermière Marie Harel, normande invente le Camembert.<br />
                             Essor de l’agriculture par la science. Naissance des écoles d’agronomie.</p>
@@ -176,10 +185,40 @@
 
     </div>
 
-     <!-- Script -->
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-     <!-- MDB -->
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
+    <footer>
+
+        <div class="text font d-flex justify-content-evenly">
+            <p>CONTACT</p>
+            <p>A PROPOS</p>
+            <p>CGU</p>
+        </div>
+
+        <div class="logo">
+            <div class="img">
+                <a href="https://www.facebook.com/quiveutdufromage/?ref=page_internal"><img
+                        src="Img/Réseaux sociaux+footer/kisspng-facebook-logo-social-media-computer-icons-icon-facebook-drawing-5ab02fb70b9ad5.9813355115214959910475.png"
+                        alt="logo" id="logo" width="50px" height="50px" class="mx-5" /></a>
+            </div>
+            <div class="img">
+                <a href="https://www.instagram.com/quiveutdufromage/?hl=fr"><img
+                        src="Img/Réseaux sociaux+footer/insta.png" alt="logo" id="logo" width="100px" height="60px"
+                        class="mx-5" /></a>
+            </div>
+            <div class="img">
+                <a href="https://twitter.com/mondialfromage"><img src="Img/Réseaux sociaux+footer/twitter.png"
+                        alt="logo" id="logo" width="70px" height="60px" class="mx-5" /></a>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <!-- Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
 
 </body>
 
