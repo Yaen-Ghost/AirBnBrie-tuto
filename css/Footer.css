@@ -5,6 +5,9 @@ footer {
     background-size: contain;
     height: 500px;
     width:auto;
+    position: relative;
+    bottom: 0px;
+    background-position: bottom;
     }
 
 
@@ -54,4 +57,3 @@ filter: grayscale(0%); /* Firefox */ }
 
 -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
 filter: grayscale(100%); /* Firefox */ }
-
