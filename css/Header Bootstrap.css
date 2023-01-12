@@ -11,10 +11,21 @@ justify-content: space-between;
     font-size: 40px;
   }
 
-  .btn {
+  .bouton {
     text-transform: unset !important;
   }
 
-  .dropdown-menu {
-    width: 100%;
-    }
+  .nopaddingBouton {
+    padding: 0 !important;
+    padding-bottom: 9px !important;
+    margin: 0 !important;
+}
+
+    .dropdown:hover .dropdown-menu {
+      display: block;
+      width: 100%;
+  }
+
+  .overflow{
+    overflow-x: hidden;
+  }

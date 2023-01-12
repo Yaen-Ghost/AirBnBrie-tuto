@@ -1,3 +1,104 @@
 body{
     margin: 0px;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .fondcolonne{
+    background-color: rgba(149, 149, 149, 0.5);
+    padding: 5px;
+    width: 250px;
+    border-radius: 20px;
+  }
+
+  .containerfromage {
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 700px;
+    padding: 10px;
+    background-color: rgba(149, 149, 149, 0.5);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+  .fondtitres{
+    background-color: black;
+    min-width: 300px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    margin-bottom: 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .imagefromage{
+    width: 130px;
+    height: 80px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* margin: 3px; */
+  }
+
+    /*TITRE EN BAS DES FROMAGES*/
+.flex-col{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .mx-5px{
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom: 5px;;
+  }
+  
+  .items-center{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  .bg{
+    z-index: 1;
+    /* position: absolute; */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    min-width: 130px;
+    max-width: 130px;
+    text-align: center;
+  }
+
+  /*COEURS*/
+.heartbutton{
+    color: red;
+    z-index: 2;
+    position: absolute;
+    float: right;
+    padding-top: 82px;
+    padding-right: 110px;
+  }
+  
+  /*FOND DES TITRES*/
+  .fondtitres{
+    background-color: black;
+    max-width: 260px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    margin-bottom: 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }

@@ -10,150 +10,235 @@
     <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
     <!-- CSS&Link Seb -->
     <!-- <link rel="stylesheet" href="css\Header Bootstrap.css"> -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@100&display=swap" rel="stylesheet">
     <title>Page utilisateur</title>
 </head>
 
-<body class="containergeneral marges"> 
-    <div class="encadre-profil item1">
+<body>
 
-        <div class="whiteshit1"><iconify-icon icon="carbon:dot-mark" width="17" height="17"></iconify-icon></div>
-        <div class="whiteshit2"><iconify-icon icon="carbon:dot-mark" width="17" height="17"></iconify-icon></div>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-black">
+            <div class="container-fluid d-flex justify-content-center font">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-end">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="accueil.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="tous les fromages.html">Tous les fromages</a>
+                    </li>
+                    <div class="">
+                        <a class="nav-link text-white" href="accueil.html">
+                            <img src="Img\Logo\Logoblanc.png" height="150" width="150" alt="Logo" /></a>
+                    </div>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="au fil des saisons.html">Au fil des saisons</a>
+                    </li>
+                    <!-- Menu deroulant -->
+                    <div class="dropdown">
+                        <button class="nopaddingBouton bouton btn btn-black fs-1 text dropdown-toggle" type="button"
+                            id="dropdownMenu2" data-mdb-toggle="dropdown" aria-expanded="false">
+                            Fourme-Tout
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <li><a class="fs-3 text dropdown-item" href="Page Historique1.html">Historique</a></li>
+                            <li><a class="fs-3 text dropdown-item" href="recettes.html">Recettes</a></li>
+                            <li><a class="fs-3 text dropdown-item" href="Quizz les fromages.html">Quiz</a></li>
+                            <li><a class="fs-3 text dropdown-item" href="adresses utiles.html">Adresses utiles</a></li>
+                        </ul>
+                    </div>
+        </nav>
+        <!-- Navbar -->
+    </header>
 
-        <img src="Img/Utilisateur/felicien.jpg" class="profilepic">
-        <br>
-        <h3 class="nom">Félicien Reblochon</h3>
+    <div class="containergeneral marges">
+        <div class="encadre-profil item1">
 
-        <p class="profiletext">Membre depuis
+            <div class="whiteshit1"><iconify-icon icon="carbon:dot-mark" width="17" height="17"></iconify-icon></div>
+            <div class="whiteshit2"><iconify-icon icon="carbon:dot-mark" width="17" height="17"></iconify-icon></div>
+
+            <img src="Img/Utilisateur/felicien.jpg" class="profilepic">
             <br>
-            Région: Bourgogne Franche-Comté
-            <br>
-            Email: fr@vivelafrance.fr
-        </p>
-    </div>
+            <h3 class="nom">Félicien Reblochon</h3>
 
-    <div class="item2">
-        <h4 class="fondtitres">😍 Fromages favoris</h4>
-        <div class="containerfromage">
-
-            <div class="mx-5px">
-                <div class="flex-col items-center">
-                    <img src="Img/Utilisateur/fromage1.jpg" class="imagefromage">
-                    <div class="bg">
-                        <div>Roquefort</div>
-                    </div>
-                    <div class="heartbutton"><iconify-icon icon="mdi:cards-heart"></iconify-icon></div>
-                </div>
-            </div>
-
-            <div class="mx-5px">
-                <div class="flex-col items-center">
-                    <img src="Img/Utilisateur/fromage2.jpg" class="imagefromage">
-                    <div class="bg">
-                        <div>Maroilles</div>
-                    </div>
-                    <div class="heartbutton"><iconify-icon icon="mdi:cards-heart"></iconify-icon></div>
-                </div>
-            </div>
-
-            <div class="mx-5px">
-                <div class="flex-col items-center">
-                    <img src="Img/Utilisateur/fromage3.jpg" class="imagefromage">
-                    <div class="bg">
-                        <div>Saint-Nectaire</div>
-                    </div>
-                    <div class="heartbutton"><iconify-icon icon="mdi:cards-heart"></iconify-icon></div>
-                </div>
-            </div>
-
-            <div class="mx-5px">
-                <div class="flex-col items-center">
-                    <img src="Img/Utilisateur/fromage4.jpg" class="imagefromage">
-                    <div class="bg">
-                        <div>Camembert</div>
-                    </div>
-                    <div class="heartbutton"><iconify-icon icon="mdi:cards-heart"></iconify-icon></div>
-                </div>
-            </div>
-
-            <div class="mx-5px">
-                <div class="flex-col items-center">
-                    <img src="Img/Utilisateur/fromage5.jpg" class="imagefromage">
-                    <div class="bg">
-                        <div>Pont L'Evêque</div>
-                    </div>
-                    <div class="heartbutton"><iconify-icon icon="mdi:cards-heart"></iconify-icon></div>
-                </div>
-            </div>
-
-            <div class="mx-5px">
-                <div class="flex-col items-center">
-                    <img src="Img/Utilisateur/fromage6.jpg" class="imagefromage">
-                    <div class="bg">
-                        <div>Saint-Paulin</div>
-                    </div>
-                    <div class="heartbutton"><iconify-icon icon="mdi:cards-heart"></iconify-icon></div>
-                </div>
-            </div>
-
-            <div class="mx-5px">
-                <div class="flex-col items-center">
-                    <img src="Img/Utilisateur/fromage7.jpg" class="imagefromage">
-                    <div class="bg">
-                        <div>Munster</div>
-                    </div>
-                    <div class="heartbutton"><iconify-icon icon="mdi:cards-heart"></iconify-icon></div>
-                </div>
-            </div>
-
-            <div class="mx-5px">
-                <div class="flex-col items-center">
-                    <img src="Img/Utilisateur/fromage8.jpg" class="imagefromage">
-                    <div class="bg">
-                        <div>Bleu</div>
-                    </div>
-                    <div class="heartbutton"><iconify-icon icon="mdi:cards-heart"></iconify-icon></div>
-                </div>
-            </div>
-
+            <p class="profiletext">Membre depuis
+                <br>
+                Région: Bourgogne Franche-Comté
+                <br>
+                Email: fr@vivelafrance.fr
+            </p>
         </div>
 
+        <div class="item2">
+            <h4 class="fondtitres">😍 Fromages favoris</h4>
+            <div class="containerfromage">
 
-        <br>
-        <h4 class="fondtitres">🤤 Cheeselist</h4>
-            <table class="tableau">
-                <th colspan="4" class="bg-titre">Ile-de-France</th>
-                <tr class="bg-grey d-n">
-                    <td>Image</td>
-                    <td>Coulommiers</td>
-                    <td><iconify-icon icon="material-symbols:heart-plus-outline" class="icons"></iconify-icon></td>
-                    <td><iconify-icon icon="radix-icons:cross-circled"></iconify-icon></td>
-                </tr>
-                <tr class="bg-white d-n">
-                    <td>Image</td>
-                    <td>Brie de Melun</td>
-                    <td><iconify-icon icon="material-symbols:heart-plus-outline" class="icons"></iconify-icon></td>
-                    <td><iconify-icon icon="radix-icons:cross-circled"></iconify-icon></td>
-                </tr>
-                <tr class="bg-grey d-n">
-                    <td>Image</td>
-                    <td>Nanteau</td>
-                    <td><iconify-icon icon="material-symbols:heart-plus-outline" class="icons"></iconify-icon></td>
-                    <td><iconify-icon icon="radix-icons:cross-circled"></iconify-icon></td>
-                </tr>
-                <tr class="bg-white d-n">
-                    <td>Image</td>
-                    <td>Boursault</td>
-                    <td><iconify-icon icon="material-symbols:heart-plus-outline" class="icons"></iconify-icon></td>
-                    <td><iconify-icon icon="radix-icons:cross-circled"></iconify-icon></td>
-                </tr>
+                <div class="mx-5px">
+                    <div class="flex-col items-center">
+                        <img src="Img/Utilisateur/fromage1.jpg" class="imagefromage">
+                        <div class="bg">
+                            <div>Roquefort</div>
+                        </div>
+                        <a href="" class="heartbutton"><iconify-icon icon="mdi:cards-heart"></iconify-icon></a>
+                    </div>
+                </div>
+
+                <div class="mx-5px">
+                    <div class="flex-col items-center">
+                        <img src="Img/Utilisateur/fromage2.jpg" class="imagefromage">
+                        <div class="bg">
+                            <div>Maroilles</div>
+                        </div>
+                        <a href="" class="heartbutton"><iconify-icon icon="mdi:cards-heart"></iconify-icon></a>
+                    </div>
+                </div>
+
+                <div class="mx-5px">
+                    <div class="flex-col items-center">
+                        <img src="Img/Utilisateur/fromage3.jpg" class="imagefromage">
+                        <div class="bg">
+                            <div>Saint-Nectaire</div>
+                        </div>
+                        <a href="" class="heartbutton"><iconify-icon icon="mdi:cards-heart"></iconify-icon></a>
+                    </div>
+                </div>
+
+                <div class="mx-5px">
+                    <div class="flex-col items-center">
+                        <img src="Img/Utilisateur/fromage4.jpg" class="imagefromage">
+                        <div class="bg">
+                            <div>Camembert</div>
+                        </div>
+                        <a href="" class="heartbutton"><iconify-icon icon="mdi:cards-heart"></iconify-icon></a>
+                    </div>
+                </div>
+
+                <div class="mx-5px">
+                    <div class="flex-col items-center">
+                        <img src="Img/Utilisateur/fromage5.jpg" class="imagefromage">
+                        <div class="bg">
+                            <div>Pont L'Evêque</div>
+                        </div>
+                        <a href="" class="heartbutton"><iconify-icon icon="mdi:cards-heart"></iconify-icon></a>
+                    </div>
+                </div>
+
+                <div class="mx-5px">
+                    <div class="flex-col items-center">
+                        <img src="Img/Utilisateur/fromage6.jpg" class="imagefromage">
+                        <div class="bg">
+                            <div>Saint-Paulin</div>
+                        </div>
+                        <a href="" class="heartbutton"><iconify-icon icon="mdi:cards-heart"></iconify-icon></a>
+                    </div>
+                </div>
+
+                <div class="mx-5px">
+                    <div class="flex-col items-center">
+                        <img src="Img/Utilisateur/fromage7.jpg" class="imagefromage">
+                        <div class="bg">
+                            <div>Munster</div>
+                        </div>
+                        <a href="" class="heartbutton"><iconify-icon icon="mdi:cards-heart"></iconify-icon></a>
+                    </div>
+                </div>
+
+                <div class="mx-5px">
+                    <div class="flex-col items-center">
+                        <img src="Img/Utilisateur/fromage8.jpg" class="imagefromage">
+                        <div class="bg">
+                            <div>Bleu</div>
+                        </div>
+                        <a href="" class="heartbutton"><iconify-icon icon="mdi:cards-heart"></iconify-icon></a>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <br>
+            <h4 class="fondtitres">🤤 Cheeselist</h4>
+            <h3 class="bg-titre" onclick="toggleTable()"><iconify-icon
+                    icon="material-symbols:arrow-circle-down-outline-rounded"></iconify-icon> Ile-de-France</h3>
+            <table id="table" class="tableau">
+                
             </table>
+        </div>
     </div>
 
 
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> -->
+
+    <script>var hide = false;
+
+        function toggleTable() {
+            if (hide == false) {
+                hide = true;
+                document.getElementById('table').style.display = 'none';
+            } else {
+                hide = false;
+                document.getElementById('table').style.display = 'table';
+            }
+        }
+
+        const tableIdf = [
+            {
+                img: "cc",
+                nom: "Coulommiers",
+                id: "line1",
+                numberLine:0
+            },
+            {
+                img: "cc",
+                nom: "cc",
+                id: "line2",
+                numberLine:1
+            },
+            {
+                img: "cc",
+                nom: "Coulommiers",
+                id: "line3",
+                numberLine:2
+            },
+            {
+                img: "cc",
+                nom: "Coulommiers",
+                id: "line4",
+                numberLine:3
+            },
+        ]
+
+        const table = document.getElementById("table");
+        for (let item of tableIdf) {
+            let newTr = document.createElement('tr');
+            if(item.numberLine%2 == 0){
+                newTr.classList.add('bg-grey');
+            } else{
+                newTr.classList.add('bg-white');
+            }
+            newTr.setAttribute("id",`${item.id}`)
+            let td1 = document.createElement('td');
+            td1.innerText = `${item.img}`;
+            let td2 = document.createElement('td');
+            td2.innerText = `${item.nom}`;
+            let td3 = document.createElement('td');
+            td3.innerHTML = `<a href=""><iconify-icon icon="material-symbols:heart-plus-outline" class="icons"></iconify-icon></a>`;
+            let td4 = document.createElement('td');
+            td4.innerHTML = `<a onclick="toggleLine(${item.numberLine})"><iconify-icon icon="radix-icons:cross-circled" class="delete"></iconify-icon></a>`;
+            
+            newTr.append(td1);
+            newTr.append(td2);
+            newTr.append(td3);
+            newTr.append(td4);
+            table.append(newTr);
+        }
+        
+        function toggleLine(nbLine) {
+            document.getElementById(`${tableIdf[nbLine].id}`).style.display = 'none';
+        }
+
+    </script>
 </body>
 
 </html>
