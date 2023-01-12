@@ -21,6 +21,11 @@ justify-content: space-between;
     margin: 0 !important;
 }
 
-  .dropdown-menu {
-    width: 100%;
-    }
+    .dropdown:hover .dropdown-menu {
+      display: block;
+      width: 100%;
+  }
+
+  .overflow{
+    overflow-x: hidden;
+  }
