@@ -2,10 +2,9 @@
 footer {
     background-image : url(../Img/footerblack.jpg);
     background-repeat : no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: bottom;
-    height: 270px;
-    width:auto;
+    height: 300px;
     }
 
 
