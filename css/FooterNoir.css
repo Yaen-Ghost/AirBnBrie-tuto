@@ -1,5 +1,5 @@
 
-footer {
+footer{
     background-image : url(../Img/footerblack.jpg);
     background-repeat : no-repeat;
     background-size: contain;
@@ -7,18 +7,6 @@ footer {
     height: 270px;
     width:auto;
     }
-
-
-  .text-justify {
-    max-width: 500px;
-    margin: 0;
-    text-align: justify;
-  }
-
-  .text-center{
-    text-align: center;
-}
-
 
 .reseau{
   text-align: center;
@@ -36,7 +24,6 @@ footer {
 .text{
   text-align:center;
   margin-top: 20px;
-  margin-right: 20px;
 }
 
 .font{
@@ -46,12 +33,10 @@ footer {
 }
 
 .img:hover{
-
 -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
 filter: grayscale(0%); /* Firefox */ }
 
 .img{
-
 -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
 filter: grayscale(100%); /* Firefox */ }
 
