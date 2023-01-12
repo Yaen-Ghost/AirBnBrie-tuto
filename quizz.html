@@ -12,6 +12,8 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@100&display=swap" rel="stylesheet">
+    <!-- CSS&Link Alexia -->
+    <link rel="stylesheet" href="css/FooterNoir.css">
     <title>Quiz</title>
 </head>
 
@@ -28,7 +30,7 @@
                <li class="nav-item">
                  <a class="nav-link text-white" href="tous les fromages.html">Tous les fromages</a>
                </li>
-               <div class="">
+               <div>
                  <a class="nav-link text-white" href="accueil.html">
                  <img src="Img\Logo\Logoblanc.png" height="150" width="150" alt="Logo"/></a>
              </div>
@@ -37,19 +39,20 @@
                </li>
                <!-- Menu deroulant -->
              <div class="dropdown">
-                 <button class="nopaddingBouton bouton btn btn-black fs-1 text dropdown-toggle" type="button" id="dropdownMenu2" data-mdb-toggle="dropdown" aria-expanded="false">
+                 <button class="nopaddingBouton bouton btn btn-black fs-1 text" type="button" id="dropdownMenu2" data-mdb-toggle="dropdown" aria-expanded="false">
                    Fourme-Tout
                  </button>
-                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                 <ul class="dropdown-menu dropdown:hover" aria-labelledby="dropdownMenu2">
                    <li><a class="fs-3 text dropdown-item" href="Page Historique1.html">Historique</a></li>
                    <li><a class="fs-3 text dropdown-item" href="recettes.html">Recettes</a></li>
-                   <li><a class="fs-3 text dropdown-item" href="Quizz les fromages.html">Quiz</a></li>
+                   <li><a class="fs-3 text dropdown-item" href="quizz.html">Quiz</a></li>
                    <li><a class="fs-3 text dropdown-item" href="adresses utiles.html">Adresses utiles</a></li>
                  </ul>
            </div>
        </nav>
        <!-- Navbar -->
      </header>
+     
 <main>
     <div class="quiz-container" id="quiz">
         <div class="quiz-hearder">
@@ -96,6 +99,31 @@
         </div>
     </div>
 </main>
+
+<footer>
+    <div class="text font d-flex justify-content-evenly text-white">
+        <p>CONTACT</p>
+        <p>A PROPOS</p>
+        <p>CGU</p>
+    </div>
+
+    <div class="logo">
+        <div class="img">
+            <a href="https://www.facebook.com/quiveutdufromage/?ref=page_internal"><img
+                    src="Img/Réseaux sociaux+footer/kisspng-facebook-logo-social-media-computer-icons-icon-facebook-drawing-5ab02fb70b9ad5.9813355115214959910475.png"
+                    alt="logo" id="logo" width="50px" height="50px" class="mx-5" /></a>
+        </div>
+        <div class="img">
+            <a href="https://www.instagram.com/quiveutdufromage/?hl=fr"><img
+                    src="Img/Réseaux sociaux+footer/insta.png" alt="logo" id="logo" width="100px" height="60px"
+                    class="mx-5" /></a>
+        </div>
+        <div class="img">
+            <a href="https://twitter.com/mondialfromage"><img src="Img/Réseaux sociaux+footer/twitter.png"
+                    alt="logo" id="logo" width="70px" height="60px" class="mx-5" /></a>
+        </div>
+    </div>
+</footer>
   
     <!-- Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
@@ -103,6 +131,8 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
     <!-- Quiz -->
     <script src="js/quiz.js"></script>
+    <!-- Script Alexia-->
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
 </body>
 
 </html>
