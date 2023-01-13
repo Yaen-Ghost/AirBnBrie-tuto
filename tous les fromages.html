@@ -7,9 +7,51 @@
     <link rel="stylesheet" href="css/tous les fromages.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
-    <title>Document</title>
+    <!-- CSS&Link Seb -->
+    <link rel="stylesheet" href="css\Header Bootstrap.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@100&display=swap" rel="stylesheet">
+    <!-- CSS&Link Alexia -->
+    <link rel="stylesheet" href="css/FooterNoir.css">
+    <title>Tous les fromages</title>
 </head>
 <body>
+
+    <header>
+        <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg navbar-light bg-black">
+         <div class="container-fluid d-flex justify-content-center font">
+             <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-end">
+               <li class="nav-item">
+                 <a class="nav-link text-white" href="accueil.html">Accueil</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link text-white" href="tous les fromages.html">Tous les fromages</a>
+               </li>
+               <div>
+                 <a class="nav-link text-white" href="accueil.html">
+                 <img src="Img\Logo\Logoblanc.png" height="150" width="150" alt="Logo"/></a>
+             </div>
+               <li class="nav-item">
+                 <a class="nav-link text-white" href="au fil des saisons.html">Au fil des saisons</a>
+               </li>
+               <!-- Menu deroulant -->
+             <div class="dropdown">
+                 <button class="nopaddingBouton bouton btn btn-black fs-1 text" type="button" id="dropdownMenu2" data-mdb-toggle="dropdown" aria-expanded="false">
+                   Fourme-Tout
+                 </button>
+                 <ul class="dropdown-menu dropdown:hover" aria-labelledby="dropdownMenu2">
+                   <li><a class="fs-3 text dropdown-item fw-bold" href="Page Historique1.html">Historique</a></li>
+                   <li><a class="fs-3 text dropdown-item fw-bold" href="recettes.html">Recettes</a></li>
+                   <li><a class="fs-3 text dropdown-item fw-bold" href="quizz.html">Quiz</a></li>
+                   <li><a class="fs-3 text dropdown-item fw-bold" href="adresses utiles.html">Adresses utiles</a></li>
+                 </ul>
+           </div>
+       </nav>
+       <!-- Navbar -->
+     </header>
+
     <div class="container d-flex flex-col mt-5">
 <!-- DEBUT PAGINATION -->
         <div>
@@ -150,8 +192,34 @@
     </div> <!--Ferme le container principal-->
 
 
+    <footer>
+        <div class="text font d-flex justify-content-evenly text-white">
+            <p>CONTACT</p>
+            <p>A PROPOS</p>
+            <p>CGU</p>
+        </div>
 
+    <div class="logo">
+        <div class="img">
+        <a href="https://www.facebook.com/quiveutdufromage/?ref=page_internal"><img src="Img/Réseaux sociaux+footer/kisspng-facebook-logo-social-media-computer-icons-icon-facebook-drawing-5ab02fb70b9ad5.9813355115214959910475.png" alt="logo" id="logo" width="50px" height="50px" class="mx-5"/></a>
+        </div>
+        <div class="img">
+        <a href="https://www.instagram.com/quiveutdufromage/?hl=fr"><img src="Img/Réseaux sociaux+footer/insta.png" alt= "logo" id="logo" width="100px" height="60px" class="mx-5" /></a>
+        </div>
+        <div class="img">
+        <a href="https://twitter.com/mondialfromage"><img src="Img/Réseaux sociaux+footer/twitter.png" alt="logo" id="logo" width="70px" height="60px" class="mx-5" /></a>
+        </div>
+    </div>
+</footer>
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+      <!-- Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
+    <!-- Script Alexia-->
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+
 </body>
 </html>
