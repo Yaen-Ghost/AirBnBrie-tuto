@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/tous les fromages.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- CSS&Link Seb -->
     <link rel="stylesheet" href="css\Header Bootstrap.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
@@ -16,180 +19,168 @@
     <link rel="stylesheet" href="css/FooterNoir.css">
     <title>Tous les fromages</title>
 </head>
+
 <body>
 
     <header>
         <!-- Navbar -->
-     <nav class="navbar navbar-expand-lg navbar-light bg-black">
-         <div class="container-fluid d-flex justify-content-center font">
-             <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-end">
-               <li class="nav-item">
-                 <a class="nav-link text-white" href="accueil.html">Accueil</a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link text-white" href="tous les fromages.html">Tous les fromages</a>
-               </li>
-               <div>
-                 <a class="nav-link text-white" href="accueil.html">
-                 <img src="Img\Logo\Logoblanc.png" height="150" width="150" alt="Logo"/></a>
-             </div>
-               <li class="nav-item">
-                 <a class="nav-link text-white" href="au fil des saisons.html">Au fil des saisons</a>
-               </li>
-               <!-- Menu deroulant -->
-             <div class="dropdown">
-                 <button class="nopaddingBouton bouton btn btn-black fs-1 text" type="button" id="dropdownMenu2" data-mdb-toggle="dropdown" aria-expanded="false">
-                   Fourme-Tout
-                 </button>
-                 <ul class="dropdown-menu dropdown:hover" aria-labelledby="dropdownMenu2">
-                   <li><a class="fs-3 text dropdown-item fw-bold" href="Page Historique1.html">Historique</a></li>
-                   <li><a class="fs-3 text dropdown-item fw-bold" href="recettes.html">Recettes</a></li>
-                   <li><a class="fs-3 text dropdown-item fw-bold" href="quizz.html">Quiz</a></li>
-                   <li><a class="fs-3 text dropdown-item fw-bold" href="adresses utiles.html">Adresses utiles</a></li>
-                 </ul>
-           </div>
-       </nav>
-       <!-- Navbar -->
-     </header>
-
-    <div class="container d-flex flex-col mt-5">
-<!-- DEBUT PAGINATION -->
-        <div>
-            <nav aria-label="Page navigation example">
-        <ul class="pagination">
-          <li class="page-item">
-            <a class="page-link" href="#" aria-label="Previous">
-              <span aria-hidden="true">&laquo;</span>
-            </a>
-          </li>
-          <li class="page-item"><a class="page-link" href="#">A</a></li>
-          <li class="page-item"><a class="page-link" href="#">B</a></li>
-          <li class="page-item"><a class="page-link" href="#">C</a></li>
-          <li class="page-item">
-            <a class="page-link" href="#" aria-label="Next">
-              <span aria-hidden="true">&raquo;</span>
-            </a>
-          </li>
-        </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-black">
+            <div class="container-fluid d-flex justify-content-center font">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-end">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="accueil.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="tous les fromages.html">Tous les fromages</a>
+                    </li>
+                    <div>
+                        <a class="nav-link text-white" href="accueil.html">
+                            <img src="Img\Logo\Logoblanc.png" height="150" width="150" alt="Logo" /></a>
+                    </div>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="au fil des saisons.html">Au fil des saisons</a>
+                    </li>
+                    <!-- Menu deroulant -->
+                    <div class="dropdown">
+                        <button class="nopaddingBouton bouton btn btn-black fs-1 text" type="button" id="dropdownMenu2"
+                            data-mdb-toggle="dropdown" aria-expanded="false">
+                            Fourme-Tout
+                        </button>
+                        <ul class="dropdown-menu dropdown:hover" aria-labelledby="dropdownMenu2">
+                            <li><a class="fs-3 text dropdown-item fw-bold" href="Page Historique1.html">Historique</a>
+                            </li>
+                            <li><a class="fs-3 text dropdown-item fw-bold" href="recettes.html">Recettes</a></li>
+                            <li><a class="fs-3 text dropdown-item fw-bold" href="quizz.html">Quiz</a></li>
+                            <li><a class="fs-3 text dropdown-item fw-bold" href="adresses utiles.html">Adresses
+                                    utiles</a></li>
+                        </ul>
+                    </div>
         </nav>
-    </div>
-<!-- FIN PAGINATION -->
+        <!-- Navbar -->
+    </header>
 
-<!-- DEBUT COLONNE GAUCHE -->
- <div class="container d-flex flex-row justify-content-lg-between"> <!--La ligne qui contient la colonne et la liste des fromages -->
-<div class="d-flex flex-column fondcolonne">
-
-<h4>Filtrer par</h4>
-<p>Régions</p>
-
-<p>Laitages</p>
-
-</div><!--Ferme la première colonne -->
-
-<div>
-    <h4 class="fondtitres">Auvergne-Rhône-Alpes</h4>
-    <div class="containerfromage">
-
-        <div class="mx-5px">
-            <div class="flex-col items-center">
-                <img src="Img/Utilisateur/fromage1.jpg" class="imagefromage">
-                <div class="bg">
-                    <div>Roquefort</div>
-                </div>
-                <div class="heartbutton"><iconify-icon icon="material-symbols:heart-plus-outline"></iconify-icon></div>
+    <main class="my-5">
+        <!-- DEBUT PAGINATION -->
+        <div class="container d-flex flex-col mt-5 align-items-center">
+            <div>
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">A</a></li>
+                        <li class="page-item"><a class="page-link" href="#">B</a></li>
+                        <li class="page-item"><a class="page-link" href="#">C</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-        </div>
+            <!-- FIN PAGINATION -->
 
-        <div class="mx-5px">
-            <div class="flex-col items-center">
-                <img src="Img/Utilisateur/fromage2.jpg" class="imagefromage">
-                <div class="bg">
-                    <div>Maroilles</div>
-                </div>
-                <div class="heartbutton"><iconify-icon icon="material-symbols:heart-plus-outline"></iconify-icon></div>
-            </div>
-        </div>
+            <!-- DEBUT COLONNE GAUCHE -->
+            <div class="container d-flex flex-row gap-4 justify-content-start">
+                <!--La ligne qui contient la colonne et la liste des fromages -->
+                <div class="flex-column fondcolonne w-25">
 
-        <div class="mx-5px">
-            <div class="flex-col items-center">
-                <img src="Img/Utilisateur/fromage3.jpg" class="imagefromage">
-                <div class="bg">
-                    <div>Saint-Nectaire</div>
-                </div>
-                <div class="heartbutton"><iconify-icon icon="material-symbols:heart-plus-outline"></iconify-icon></div>
-            </div>
-        </div>
+                    <h4>Filtrer par</h4>
+                    <hr class="hacheair">
+                    <p>Régions</p>
 
-        <div class="mx-5px">
-            <div class="flex-col items-center">
-                <img src="Img/Utilisateur/fromage4.jpg" class="imagefromage">
-                <div class="bg">
-                    <div>Camembert</div>
-                </div>
-                <div class="heartbutton"><iconify-icon icon="material-symbols:heart-plus-outline"></iconify-icon></div>
-            </div>
-        </div>
+                    <hr class="hacheair">
+                    <p>Laitages</p>
 
-        <div class="mx-5px">
-            <div class="flex-col items-center">
-                <img src="Img/Utilisateur/fromage5.jpg" class="imagefromage">
-                <div class="bg">
-                    <div>Pont L'Evêque</div>
-                </div>
-                <div class="heartbutton"><iconify-icon icon="material-symbols:heart-plus-outline"></iconify-icon></div>
-            </div>
-        </div>
+                </div><!--Ferme la première colonne -->
 
-        <div class="mx-5px">
-            <div class="flex-col items-center">
-                <img src="Img/Utilisateur/fromage6.jpg" class="imagefromage">
-                <div class="bg">
-                    <div>Saint-Paulin</div>
-                </div>
-                <div class="heartbutton"><iconify-icon icon="material-symbols:heart-plus-outline"></iconify-icon></div>
-            </div>
-        </div>
+                <div>
+                    <h4 class="fondtitres">Auvergne-Rhône-Alpes</h4>
+                    <div class="containerfromage">
+                        <div class="mx-5px" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <div class="flex-col items-center">
+                                <img src="Img/Utilisateur/fromage1.jpg" class="imagefromage">
 
-        <div class="mx-5px">
-            <div class="flex-col items-center">
-                <img src="Img/Utilisateur/fromage7.jpg" class="imagefromage">
-                <div class="bg">
-                    <div>Munster</div>
-                </div>
-                <div class="heartbutton"><iconify-icon icon="material-symbols:heart-plus-outline"></iconify-icon></div>
-            </div>
-        </div>
+                                <div class="bg">
+                                    <div>Roquefort</div>
+                                </div>
 
-        <div class="mx-5px">
-            <div class="flex-col items-center">
-                <img src="Img/Utilisateur/fromage8.jpg" class="imagefromage">
-                <div class="bg">
-                    <div>Bleu</div>
-                </div>
-                <div class="heartbutton"><iconify-icon icon="material-symbols:heart-plus-outline"></iconify-icon></div>
-            </div>
-        </div>
-
-    </div>
-
-</div><!--Ferme la flexbox horizontale -->
+                            </div>
+                        </div>
 
 
+                        <div class="mx-5px">
+                            <div class="flex-col items-center">
+                                <img src="Img/Utilisateur/fromage2.jpg" class="imagefromage">
+                                <div class="bg">
+                                    <div>Maroilles</div>
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="mx-5px">
+                            <div class="flex-col items-center">
+                                <img src="Img/Utilisateur/fromage3.jpg" class="imagefromage">
+                                <div class="bg">
+                                    <div>Saint-Nectaire</div>
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="mx-5px">
+                            <div class="flex-col items-center">
+                                <img src="Img/Utilisateur/fromage4.jpg" class="imagefromage">
+                                <div class="bg">
+                                    <div>Camembert</div>
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="mx-5px">
+                            <div class="flex-col items-center">
+                                <img src="Img/Utilisateur/fromage5.jpg" class="imagefromage">
+                                <div class="bg">
+                                    <div>Pont L'Evêque</div>
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="mx-5px">
+                            <div class="flex-col items-center">
+                                <img src="Img/Utilisateur/fromage6.jpg" class="imagefromage">
+                                <div class="bg">
+                                    <div>Saint-Paulin</div>
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="mx-5px">
+                            <div class="flex-col items-center">
+                                <img src="Img/Utilisateur/fromage7.jpg" class="imagefromage">
+                                <div class="bg">
+                                    <div>Munster</div>
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="mx-5px">
+                            <div class="flex-col items-center">
+                                <img src="Img/Utilisateur/fromage8.jpg" class="imagefromage">
+                                <div class="bg">
+                                    <div>Bleu</div>
+                                </div>
+                            </div>
+                        </div>
 
+                    </div>
 
+                </div><!--Ferme la flexbox horizontale -->
 
-
-
-
-
-
-    </div> <!--Ferme le container principal-->
+            </div> <!--Ferme le container principal-->
+    </main>
 
 
     <footer>
@@ -199,27 +190,73 @@
             <p>CGU</p>
         </div>
 
-    <div class="logo">
-        <div class="img">
-        <a href="https://www.facebook.com/quiveutdufromage/?ref=page_internal"><img src="Img/Réseaux sociaux+footer/kisspng-facebook-logo-social-media-computer-icons-icon-facebook-drawing-5ab02fb70b9ad5.9813355115214959910475.png" alt="logo" id="logo" width="50px" height="50px" class="mx-5"/></a>
+        <div class="logo">
+            <div class="img">
+                <a href="https://www.facebook.com/quiveutdufromage/?ref=page_internal"><img
+                        src="Img/Réseaux sociaux+footer/kisspng-facebook-logo-social-media-computer-icons-icon-facebook-drawing-5ab02fb70b9ad5.9813355115214959910475.png"
+                        alt="logo" id="logo" width="50px" height="50px" class="mx-5" /></a>
+            </div>
+            <div class="img">
+                <a href="https://www.instagram.com/quiveutdufromage/?hl=fr"><img
+                        src="Img/Réseaux sociaux+footer/insta.png" alt="logo" id="logo" width="100px" height="60px"
+                        class="mx-5" /></a>
+            </div>
+            <div class="img">
+                <a href="https://twitter.com/mondialfromage"><img src="Img/Réseaux sociaux+footer/twitter.png"
+                        alt="logo" id="logo" width="70px" height="60px" class="mx-5" /></a>
+            </div>
         </div>
-        <div class="img">
-        <a href="https://www.instagram.com/quiveutdufromage/?hl=fr"><img src="Img/Réseaux sociaux+footer/insta.png" alt= "logo" id="logo" width="100px" height="60px" class="mx-5" /></a>
-        </div>
-        <div class="img">
-        <a href="https://twitter.com/mondialfromage"><img src="Img/Réseaux sociaux+footer/twitter.png" alt="logo" id="logo" width="70px" height="60px" class="mx-5" /></a>
+    </footer>
+    <!-- DEBUT MODAL -->
+
+
+    <!-- Modal -->
+    <div class="modal animate__animated animate__jackInTheBox" id="exampleModal" tabindex="-1"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">NOM FROMAGE</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+ <!-- CONTENU DE LA MODAL -->
+        <div class="d-flex flex-row">
+<img src ="Img/explosion.gif">
+<span><p>Laitage: </p>
+    <p>Région: </p>
+    
+    <p>Saison: </p>
+    
+    <p>Recettes associées: </p></span>
+        </div>            
+
+
+
+
+<!-- FIN CONTENU DE LA MODAL -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
         </div>
     </div>
-</footer>
 
-      <!-- Script -->
+
+    <!-- FIN MODAL -->
+
+    <!-- Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
     <!-- MDB -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script> -->
     <!-- Script Alexia-->
-    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <!-- <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <script type="text/javascript" src="JS/touslesfromages.js"></script> -->
 
 </body>
+
 </html>
