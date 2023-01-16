@@ -20,11 +20,10 @@ footer {
       margin-right: 50px;
     }
     
-    
     .font{
       font-family: 'Alumni Sans', sans-serif;
       font-size: 40px;
-      color:white
+      color:rgb(20, 20, 20)
     }
     
     .img:hover{

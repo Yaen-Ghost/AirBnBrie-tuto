@@ -1,13 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <!-- CSS&Link Anais -->
     <link rel="stylesheet" href="css/inscription.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/buttonWow.css">
+    <!-- CSS&Link Seb -->
+    <link rel="stylesheet" href="css\Header Bootstrap.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@100&display=swap" rel="stylesheet">
+    <!-- CSS&Link Alexia -->
+    <link rel="stylesheet" href="css/FooterNoir.css">
+
+    <title>Création de compte</title>
+
 </head>
+
+<header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-black">
+        <div class="container-fluid d-flex justify-content-center font">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-end">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="accueil.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="tous les fromages.html">Tous les fromages</a>
+                </li>
+                <div>
+                    <a class="nav-link text-white" href="accueil.html">
+                        <img src="Img\Logo\Logoblanc.png" height="150" width="150" alt="Logo" /></a>
+                </div>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="au fil des saisons.html">Au fil des saisons</a>
+                </li>
+                <!-- Menu deroulant -->
+                <div class="dropdown">
+                    <button class="nopaddingBouton bouton btn btn-black fs-1 text" type="button" id="dropdownMenu2"
+                        data-mdb-toggle="dropdown" aria-expanded="false">
+                        Fourme-Tout
+                    </button>
+                    <ul class="dropdown-menu dropdown:hover" aria-labelledby="dropdownMenu2">
+                        <li><a class="fs-3 text dropdown-item" href="Page Historique1.html">Historique</a></li>
+                        <li><a class="fs-3 text dropdown-item" href="recettes.html">Recettes</a></li>
+                        <li><a class="fs-3 text dropdown-item" href="quizz.html">Quiz</a></li>
+                        <li><a class="fs-3 text dropdown-item" href="adresses utiles.html">Adresses utiles</a></li>
+                    </ul>
+                </div>
+    </nav>
+    <!-- Navbar -->
+</header>
+
 <body>
+    <main>
+
+        <h1 class="text-center police">Créer votre compte</h1>
+
+        <br action="#">
+        <div class="encadrer-un-contenu">
+            <table>
+                <tr>
+            <td><label for="name">
+                <p class="p1">Nom :</td>
+                    <td>
+                    <input type="text" name="name" placeholder="Reblochon" required id="cadre"
+                        class="formulaire"></td>
+                    </tr>
+                </p>
+                <tr>
+            </label>
+            <td><label for="firstname">
+                <p class="p1">Prénom :</td>
+                   <td> <input type="text" name="firstname" placeholder="Félicien" required id="cadre"
+                        class="formulaire"></td>
+                    </tr>
+                </p>
+                <tr>
+            </label>
+            <td><label for="e-mail">
+                <p class="p1">Adresse e-mail :</td>
+                  <td> <input type="email" name="email" placeholder="fr@vivelefromage.fr" required id="cadre"
+                        class="formulaire"></td>
+                    </tr>
+                </p>
+            <tr>
+            </label>
+            <td><label for="mdp">
+                <p class="p1">Définissez votre mot de passe :</td>
+                   <td> <input type="mdp" name="mdp" placeholder="Ici" required id="cadre"
+                        class="formulaire"></td>
+                    </tr>
+                </p>
+            <tr>
+            </label>
+            <td><label for="mdp">
+                <p class="p1">Vérifiez votre mot de passe :</td>
+                  <td><input type="mdp" name="mdp" placeholder="Ici" required id="cadre"
+                        class="formulaire"></td>
+                    </tr>
+                </p>
+            <tr>
+            </label>
+            <td><label for="region">
+                <p class="p1">Sélectionnez votre région : </p></td>
+                <td>    <select id="region" name="region" class="formulaire">
+                        <option value="Auvergne-Rhône-Alpes">Auvergne-Rhône-Alpes</option>
+                        <option value="Bourgogne Franche-Comté">Bourgogne Franche-Comté</option>
+                        <option value="Bretagne">Bretagne</option>
+                        <option value="Centre-Val-de-Loire">Centre-Val-de-Loire</option>
+                        <option value="Corse">Corse</option>
+                        <option value="Grand Est">Grand Est</option>
+                        <option value="Hauts-de-France">Hauts-de-France</option>
+                        <option value="Ile-de-France">Ile-de-France</option>
+                        <option value="Normandie">Normandie</option>
+                        <option value="Nouvelle-Aquitaine">Nouvelle-Aquitaine</option>
+                        <option value="Occitanie">Occitanie</option>
+                        <option value="Pays-de-la-Loire">Pays-de-la-Loire</option>
+                        <option value="Provence-Alpes-Côte-d'Azur">Provence-Alpes-Côte-d'Azur</option>
+                    </select></td>   
+                </tr>
+            
+                <tr>
+                </label>
+                <td><div class="box">
+                    <label for="newsletter">
+                        <a class="p1" href="CGU.html" target="blank"> Acceptez les CGU</a></td>
+                    </label>
     
+                   <td><input type="checkbox" class="checkbox-bipolar-input" id="bipolar">
+                    <label for="bipolar">
+                        <span class="checkbox-bipolar">
+                            <span class="on">
+                                I
+                            </span>
+                            <span class="off">
+                                O
+                            </span>
+                        </span></td> 
+                    </label>
+
+
+                </tr>
+                <tr>
+            <td><div class="box">
+                <label for="newsletter">
+                    <p class="p1"> Recevoir la newsletter :</p></td>
+                </label>
+
+               <td><input type="checkbox" class="checkbox-bipolar-input" id="bipolar2">
+                <label for="bipolar2">
+                    <span class="checkbox-bipolar">
+                        <span class="on">
+                            I
+                        </span>
+                        <span class="off">
+                            O
+                        </span>
+                    </span></td> 
+                </label>
+            </tr>
+            </div>
+        </table>
+           <br/>
+            <section class="portfolio-experiment text-center">
+                <a href="Page utilisateur.html">
+                    <span class="text">Se connecter</span>
+                    <span class="line -right"></span>
+                    <span class="line -top"></span>
+                    <span class="line -left"></span>
+                    <span class="line -bottom"></span>
+                </a>
+            </section>
+
+        </div>
+    </main>
+
+
+
+    <footer>
+        <div class="text font d-flex justify-content-evenly text-white">
+            <p>CONTACT</p>
+            <p>A PROPOS</p>
+            <p>CGU</p>
+        </div>
+
+        <div class="logo">
+            <div class="img">
+                <a href="https://www.facebook.com/quiveutdufromage/?ref=page_internal"><img
+                        src="Img/Réseaux sociaux+footer/kisspng-facebook-logo-social-media-computer-icons-icon-facebook-drawing-5ab02fb70b9ad5.9813355115214959910475.png"
+                        alt="logo" id="logo" width="50px" height="50px" class="mx-5" /></a>
+            </div>
+            <div class="img">
+                <a href="https://www.instagram.com/quiveutdufromage/?hl=fr"><img
+                        src="Img/Réseaux sociaux+footer/insta.png" alt="logo" id="logo" width="100px" height="60px"
+                        class="mx-5" /></a>
+            </div>
+            <div class="img">
+                <a href="https://twitter.com/mondialfromage"><img src="Img/Réseaux sociaux+footer/twitter.png"
+                        alt="logo" id="logo" width="70px" height="60px" class="mx-5" /></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
+    <!-- Script Alexia-->
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+
 </body>
+
 </html>
