@@ -98,80 +98,33 @@
                 </div><!--Ferme la première colonne -->
 
                 <div>
-                    <h4 class="fondtitres">Auvergne-Rhône-Alpes</h4>
-                    <div class="containerfromage">
-                        <div class="mx-5px" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            <div class="flex-col items-center">
-                                <img src="Img/Utilisateur/fromage1.jpg" class="imagefromage">
+                    <div class="containerfromage" id="cheese-container">
 
-                                <div class="bg">
-                                    <div>Roquefort</div>
-                                </div>
+                            <div class="flex-col items-center cheese" data-cheese-name="Camembert" data-cheese-image="Img/Tous les fromages/camembert.jpg">
+                                <img src="Img/Tous les fromages/camembert.jpg" class="imagefromage">
 
-                            </div>
-                        </div>
-
-
-<<<<<<< HEAD
-                        <div class="mx-5px">
-                            <div class="flex-col items-center">
-                                <img src="Img/Utilisateur/fromage2.jpg" class="imagefromage">
-                                <div class="bg">
-                                    <div>Maroilles</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="mx-5px">
-                            <div class="flex-col items-center">
-                                <img src="Img/Utilisateur/fromage3.jpg" class="imagefromage">
-                                <div class="bg">
-                                    <div>Saint-Nectaire</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="mx-5px">
-                            <div class="flex-col items-center">
-                                <img src="Img/Utilisateur/fromage4.jpg" class="imagefromage">
                                 <div class="bg">
                                     <div>Camembert</div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="mx-5px">
-                            <div class="flex-col items-center">
-                                <img src="Img/Utilisateur/fromage5.jpg" class="imagefromage">
+
+                        <div class="mx-5px" data-bs-toggle="modal" data-bs-target="#exampleModal" id="">
+                            <div class="flex-col items-center cheese" data-cheese-name="Coulommiers" data-cheese-image="Img/Tous les fromages/coulommiers.jpg">
+                                <img src="Img/Tous les fromages/coulommiers.jpg" class="imagefromage">
+
                                 <div class="bg">
-                                    <div>Pont L'Evêque</div>
+                                    <div>Coulommiers</div>
                                 </div>
                             </div>
                         </div>
+                        
+                        <div class="mx-5px" data-bs-toggle="modal" data-bs-target="#exampleModal" id="">
+                            <div class="flex-col items-center cheese" data-cheese-name="Maroilles" data-cheese-image="Img/Tous les fromages/maroilles.jpg">
+                                <img src="Img/Tous les fromages/maroilles.jpg" class="imagefromage">
 
-                        <div class="mx-5px">
-                            <div class="flex-col items-center">
-                                <img src="Img/Utilisateur/fromage6.jpg" class="imagefromage">
                                 <div class="bg">
-                                    <div>Saint-Paulin</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="mx-5px">
-                            <div class="flex-col items-center">
-                                <img src="Img/Utilisateur/fromage7.jpg" class="imagefromage">
-                                <div class="bg">
-                                    <div>Munster</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="mx-5px">
-                            <div class="flex-col items-center">
-                                <img src="Img/Utilisateur/fromage8.jpg" class="imagefromage">
-                                <div class="bg">
-                                    <div>Bleu</div>
+                                    <div>Maroilles</div>
                                 </div>
                             </div>
                         </div>
@@ -182,9 +135,6 @@
 
             </div> <!--Ferme le container principal-->
     </main>
-=======
-    </div> <!--Ferme le container principal-->
->>>>>>> e370d7ca24bd8fde397adbbb3090bdc406b34fdd
 
 
     <footer>
@@ -214,52 +164,48 @@
     <!-- DEBUT MODAL -->
 
 
-    <!-- Modal -->
-    <div class="modal animate__animated animate__jackInTheBox" id="exampleModal" tabindex="-1"
-        aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">NOM FROMAGE</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
- <!-- CONTENU DE LA MODAL -->
-        <div class="d-flex flex-row">
-<img src ="Img/explosion.gif">
-<span><p>Laitage: </p>
-    <p>Région: </p>
-    
-    <p>Saison: </p>
-    
-    <p>Recettes associées: </p></span>
-        </div>            
-
-
-
-
-<!-- FIN CONTENU DE LA MODAL -->
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
+<!-- Modal -->
+<div class="modal animate__animated animate__jackInTheBox" id="exampleModal" tabindex="-1"
+aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">NOM FROMAGE</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
+        <div class="modal-body">
+<!-- CONTENU DE LA MODAL -->
+            <div class="d-flex flex-row">
+                <img src="Img/Tous les fromages/camembert.jpg" id="fromage-image">
+                <span class="mx-2"><p>Laitage: </p>
+                    <p>Région: </p>
+                    
+                    <p>Saison: </p>
+                </span>
+            </div>  
+                <div class="d-flex flex-row my-5">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, enim eaque itaque beatae accusamus maxime sapiente fugiat ratione tempora fugit eligendi esse corrupti eos! Error aliquam dolor recusandae ab debitis!</p>
+                </div>            
+<!-- FIN CONTENU DE LA MODAL -->
         </div>
+            <div class="modal-footer justify-content-between">
+            <span>🤤 <a href="">Ajouter à la Cheeselist</a></span> <span>😍 <a href="">Ajouter aux favoris</a></span>
+            </div>
     </div>
+</div>
+</div>
 
-
-    <!-- FIN MODAL -->
+<!-- FIN MODAL -->
 
     <!-- Script -->
+    <script type="text/javascript" src="JS/touslesfromages.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
     <!-- MDB -->
     <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script> -->
     <!-- Script Alexia-->
-    <!-- <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
-    <script type="text/javascript" src="JS/touslesfromages.js"></script> -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
 
 </body>
 
