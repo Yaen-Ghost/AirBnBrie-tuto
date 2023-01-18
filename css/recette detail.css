@@ -7,13 +7,12 @@ body{
     background-position:center;
   }
   
-  
-  
   .container {
     background-color: rgba(215, 204, 204, 0.7);
     border-radius: 10px;
     width: 200px;
 }
+
 .boutonfiltre {
     background-color: rgba(9, 26, 120, 0.7);
     padding: 5px;    
@@ -27,6 +26,7 @@ body{
 .boutoncentre{
     text-align: center;
 }
+
 .precette:first-letter{
     font-size: 2rem;
     margin-right: 1rem;
@@ -40,3 +40,9 @@ body{
     .baguettegris{
         color:grey;
     }
+
+    main{
+        padding: 15px;
+        margin-top: 70px;
+        margin-bottom: 85px;
+      }
