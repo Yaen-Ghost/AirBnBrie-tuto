@@ -34,4 +34,10 @@ footer {
     -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
     filter: grayscale(100%); /* Firefox */ }
 
+    .lienfooterblanc{
+      color: black;
+    }
     
+    .lienfooterblanc:hover{
+      color: black;
+    }
