@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/utilisateur.css">
+    <!-- CSS&Link Anais -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <!-- CSS&Link Seb -->
+    <link rel="stylesheet" href="css\Header Bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@100&display=swap" rel="stylesheet">
+    <!-- CSS&Link Alexia -->
+    <link rel="stylesheet" href="css/FooterNoir.css">
+
+    <title>Page utilisateur</title>
+</head>
+
+<body>
+
+    <header>
+        <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg navbar-light bg-black">
+        <!-- Bouton Mon compte -->
+        <div class="btn-group dropstart haut-droite font">
+            <button type="button" class="nopaddingBouton bouton btn btn-secondary btn-black fs-1 text" data-bs-toggle="dropdown" aria-expanded="false">
+              Mon compte
+            </button>
+            <ul class="dropdown-menu dropdown:hover" aria-labelledby="dropdownMenu2">
+                <li><a class="fs-3 text dropdown-item fw-bold" href="inscription.html">Créer mon compte</a></li>
+                <li><a class="fs-3 text dropdown-item fw-bold" href="connexion.html">Se connecter</a></li>
+              </ul>
+          </div>
+          <!-- Container -->
+         <div class="container-fluid d-flex justify-content-center font">
+             <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-end">
+               <li class="nav-item">
+                 <a class="nav-link text-white" href="accueil.html">Accueil</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link text-white" href="tous les fromages.html">Tous les fromages</a>
+               </li>
+               <div>
+                 <a class="nav-link text-white" href="accueil.html">
+                 <img src="Img\Logo\Logoblanc.png" height="150" width="150" alt="Logo"/></a>
+             </div>
+               <li class="nav-item">
+                 <a class="nav-link text-white" href="au fil des saisons.html">Au fil des saisons</a>
+               </li>
+               <!-- Menu deroulant -->
+             <div class="dropdown">
+                 <button class="nopaddingBouton bouton btn btn-black fs-1 text" type="button" id="dropdownMenu2" data-mdb-toggle="dropdown" aria-expanded="false">
+                   Fourme-Tout
+                 </button>
+                 <ul class="dropdown-menu dropdown:hover" aria-labelledby="dropdownMenu2">
+                    <li><a class="fs-3 text dropdown-item fw-bold" href="Page Historique1.html" target="_blank">Historique</a></li>
+                    <li><a class="fs-3 text dropdown-item fw-bold" href="recettes.html" target="_blank">Recettes</a></li>
+                    <li><a class="fs-3 text dropdown-item fw-bold" href="quizz.html" target="_blank">Quiz</a></li>
+                    <li><a class="fs-3 text dropdown-item fw-bold" href="adresses utiles.html" target="_blank">Adresses utiles</a></li>
+                  </ul>
+           </div>
+       </nav>
+       <!-- Navbar -->
+     </header>
+
+<main>
+    <div class="containergeneral marges">
+        <div class="encadre-profil item1">
+
+            <div class="whiteshit1"><iconify-icon icon="carbon:dot-mark" width="17" height="17"></iconify-icon></div>
+            <div class="whiteshit2"><iconify-icon icon="carbon:dot-mark" width="17" height="17"></iconify-icon></div>
+
+            <img src="Img/Utilisateur/felicien.jpg" class="profilepic">
+            <br>
+            <h3 class="nom">Félicien Reblochon</h3>
+
+            <p class="profiletext">Membre depuis
+                <br>
+                Région: Bourgogne Franche-Comté
+                <br>
+                Email: fr@vivelafrance.fr
+            </p>
+        </div>
+
+        <div class="item2">
+            <h4 class="fondtitres">😍 Fromages favoris</h4>
+            <div class="containerfromage">
+
+                <div class="mx-5px">
+                    <div class="flex-col items-center">
+                        <img src="Img/Utilisateur/fromage1.jpg" class="imagefromage">
+                        <div class="bg">
+                            <div>Roquefort</div>
+                        </div>
+                        <a href="" class="heartbutton"><iconify-icon icon="mdi:cards-heart"></iconify-icon></a>
+                    </div>
+                </div>
+
+                <div class="mx-5px">
+                    <div class="flex-col items-center">
+                        <img src="Img/Utilisateur/fromage2.jpg" class="imagefromage">
+                        <div class="bg">
+                            <div>Maroilles</div>
+                        </div>
+                        <a href="" class="heartbutton"><iconify-icon icon="mdi:cards-heart"></iconify-icon></a>
+                    </div>
+                </div>
+
+                <div class="mx-5px">
+                    <div class="flex-col items-center">
+                        <img src="Img/Utilisateur/fromage3.jpg" class="imagefromage">
+                        <div class="bg">
+                            <div>Saint-Nectaire</div>
+                        </div>
+                        <a href="" class="heartbutton"><iconify-icon icon="mdi:cards-heart"></iconify-icon></a>
+                    </div>
+                </div>
+
+                <div class="mx-5px">
+                    <div class="flex-col items-center">
+                        <img src="Img/Utilisateur/fromage4.jpg" class="imagefromage">
+                        <div class="bg">
+                            <div>Camembert</div>
+                        </div>
+                        <a href="" class="heartbutton"><iconify-icon icon="mdi:cards-heart"></iconify-icon></a>
+                    </div>
+                </div>
+
+                <div class="mx-5px">
+                    <div class="flex-col items-center">
+                        <img src="Img/Utilisateur/fromage5.jpg" class="imagefromage">
+                        <div class="bg">
+                            <div>Pont L'Evêque</div>
+                        </div>
+                        <a href="" class="heartbutton"><iconify-icon icon="mdi:cards-heart"></iconify-icon></a>
+                    </div>
+                </div>
+
+                <div class="mx-5px">
+                    <div class="flex-col items-center">
+                        <img src="Img/Utilisateur/fromage6.jpg" class="imagefromage">
+                        <div class="bg">
+                            <div>Saint-Paulin</div>
+                        </div>
+                        <a href="" class="heartbutton"><iconify-icon icon="mdi:cards-heart"></iconify-icon></a>
+                    </div>
+                </div>
+
+                <div class="mx-5px">
+                    <div class="flex-col items-center">
+                        <img src="Img/Utilisateur/fromage7.jpg" class="imagefromage">
+                        <div class="bg">
+                            <div>Munster</div>
+                        </div>
+                        <a href="" class="heartbutton"><iconify-icon icon="mdi:cards-heart"></iconify-icon></a>
+                    </div>
+                </div>
+
+                <div class="mx-5px">
+                    <div class="flex-col items-center">
+                        <img src="Img/Utilisateur/fromage8.jpg" class="imagefromage">
+                        <div class="bg">
+                            <div>Bleu</div>
+                        </div>
+                        <a href="" class="heartbutton"><iconify-icon icon="mdi:cards-heart"></iconify-icon></a>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <br>
+            <h4 class="fondtitres">🤤 Cheeselist</h4>
+            <h3 class="bg-titre" onclick="toggleTable()"><iconify-icon
+                    icon="material-symbols:arrow-circle-down-outline-rounded"></iconify-icon> Ile-de-France</h3>
+            <table id="table" class="tableau">
+                
+            </table>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="text font d-flex justify-content-evenly text-black">
+        <a href="contact.html" target="_blank" class="lienfooternoir">CONTACT</a>
+        <a href="A propos.html" target="_blank" class="lienfooternoir">A PROPOS</a>
+        <a href="CGU.html" target="_blank" class="lienfooternoir">CGU</a>
+    </div>
+
+<div class="logo">
+    <div class="img">
+    <a href="https://www.facebook.com/quiveutdufromage/?ref=page_internal"><img src="Img/Réseaux sociaux+footer/kisspng-facebook-logo-social-media-computer-icons-icon-facebook-drawing-5ab02fb70b9ad5.9813355115214959910475.png" alt="logo" id="logo" width="50px" height="50px" class="mx-5"/></a>
+    </div>
+    <div class="img">
+    <a href="https://www.instagram.com/quiveutdufromage/?hl=fr"><img src="Img/Réseaux sociaux+footer/insta.png" alt= "logo" id="logo" width="100px" height="60px" class="mx-5" /></a>
+    </div>
+    <div class="img">
+    <a href="https://twitter.com/mondialfromage"><img src="Img/Réseaux sociaux+footer/twitter.png" alt="logo" id="logo" width="70px" height="60px" class="mx-5" /></a>
+    </div>
+</div>
+</footer>
+
+    <!-- Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
+    <!-- Script Alexia-->
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+
+    <script>var hide = false;
+
+        function toggleTable() {
+            if (hide == false) {
+                hide = true;
+                document.getElementById('table').style.display = 'none';
+            } else {
+                hide = false;
+                document.getElementById('table').style.display = 'table';
+            }
+        }
+
+        const tableIdf = [
+            {
+                img: "cc",
+                nom: "Coulommiers",
+                id: "line1",
+                numberLine:0
+            },
+            {
+                img: "cc",
+                nom: "cc",
+                id: "line2",
+                numberLine:1
+            },
+            {
+                img: "cc",
+                nom: "Coulommiers",
+                id: "line3",
+                numberLine:2
+            },
+            {
+                img: "cc",
+                nom: "Coulommiers",
+                id: "line4",
+                numberLine:3
+            },
+        ]
+
+        const table = document.getElementById("table");
+        for (let item of tableIdf) {
+            let newTr = document.createElement('tr');
+            if(item.numberLine%2 == 0){
+                newTr.classList.add('bg-grey');
+            } else{
+                newTr.classList.add('bg-white');
+            }
+            newTr.setAttribute("id",`${item.id}`)
+            let td1 = document.createElement('td');
+            td1.innerText = `${item.img}`;
+            let td2 = document.createElement('td');
+            td2.innerText = `${item.nom}`;
+            let td3 = document.createElement('td');
+            td3.innerHTML = `<a href=""><iconify-icon icon="material-symbols:heart-plus-outline" class="icons"></iconify-icon></a>`;
+            let td4 = document.createElement('td');
+            td4.innerHTML = `<a onclick="toggleLine(${item.numberLine})"><iconify-icon icon="radix-icons:cross-circled" class="delete"></iconify-icon></a>`;
+            
+            newTr.append(td1);
+            newTr.append(td2);
+            newTr.append(td3);
+            newTr.append(td4);
+            table.append(newTr);
+        }
+        
+        function toggleLine(nbLine) {
+            document.getElementById(`${tableIdf[nbLine].id}`).style.display = 'none';
+        }
+
+    </script>
+</body>
+
+</html>

@@ -8,12 +8,14 @@ body{
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+    margin-top: 85px;
+    margin-bottom: 150px;
 
 }
 
 .paragrapheaccueil{
     width: 400px;
-    background-color: #777777;
+    background-color: #bcbcbcb1;
     border-radius: 10px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -28,6 +30,6 @@ body{
 }
 
 #corse{
-    margin-top: 170px;
-    padding-right: 100px;
+    margin-top: -110px;
+    padding-right: 60px;
 }

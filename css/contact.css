@@ -1,0 +1,21 @@
+body {
+    background-image : url(../Img/Fonds/contactfond.jpg);
+    background-repeat : no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    }
+
+    .fondopaque{
+    background:rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(3px);
+    border-radius: 20px;
+    margin-bottom: 48px;
+    margin-left: 65px;
+    margin-right: 65px;
+    }
+
+    .radiusimage{
+        border-radius: 20px;
+        margin-right: 30px;
+    }

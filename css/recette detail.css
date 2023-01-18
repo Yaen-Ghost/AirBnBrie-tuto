@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    background-image : url(../Img/Fonds/istockphoto-509415556-612x612.jpg);
+    background-repeat : no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    background-position:center;
+  }
+  
+  .container {
+    background-color: rgba(215, 204, 204, 0.7);
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px;
+}
+
+.boutonfiltre {
+    background-color: rgba(9, 26, 120, 0.7);
+    padding: 5px;    
+    border-radius: 20px;
+}
+
+.boutonfiltre:a{
+    color: rgb(255, 255, 255);
+}
+
+.boutoncentre{
+    text-align: center;
+}
+
+.precette:first-letter{
+    font-size: 2rem;
+    margin-right: 1rem;
+    float: left;
+    }
+
+.baguettecouleur{
+        color:coral;
+    }
+
+    .baguettegris{
+        color:grey;
+    }
+
+    main{
+        padding: 15px;
+        margin-top: 70px;
+        margin-bottom: 85px;
+      }

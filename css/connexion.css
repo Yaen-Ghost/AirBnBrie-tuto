@@ -1,30 +1,15 @@
 .text-center{
     text-align: center;
-}
-
-.items-center{
-    margin-left:auto;
-    margin-right:auto;
+    color :rgb(17, 17, 17);
 }
 
 .bg-grey{
-    background-color: #2c2929;
-}
-
-.border-spacing{
-  border-spacing: 0px;
-}
-
-.centrer {
-  max-width: 700px;
-  margin: 0 auto;
-  text-align: justify;
+    background-color: #464242;
 }
 
 .text-justify {
   max-width: 500px;
-  margin: 0 auto;
-  text-align: justify;
+  margin: auto;
 }
 
 table{
@@ -59,16 +44,15 @@ li {
   background-position: center;
   padding: 10px;
   border-radius: 10px;
-  height: fit-content; width:fit-content
+  height: fit-content; 
+  width:fit-content;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 body{
-  margin:0cm;
   width : auto;
   padding-top : auto;
-  /* Calcul du padding 
-   H = 150 * width / L = 100
-  */
   background-image  : url(../Img/Fonds/Poster-Foto-Tapete-Vlies-020.jpg);
   background-repeat : no-repeat;
   background-size: cover;
@@ -76,6 +60,13 @@ body{
   background-position:center;
   height: 1000px;
 }
+
+main{
+    padding: 15px;
+    margin-top: 70px;
+    margin-bottom: 85px;
+  
+  }
 
 .formulaire{
   background-color:rgb(17, 17, 17);
@@ -85,26 +76,80 @@ body{
 
  .p1{
   color: rgb(255, 255, 255);
+  margin-bottom: 7px;
+  margin-right: 15px;
 }
 
-header {
-  background-color: black;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-position: center;
-  height: 150px;
-  width: 150px;
-  margin-left: auto;
-  margin-right: auto;
+.police{
+  font-family: 'Alumni Sans', sans-serif;
+  font-size: 60px;
+  color:rgb(20, 20, 20);
+  font-weight: bold;
 }
 
-#logo
-{
-position: absolute;
-margin-left: center;
-margin-right: center;
-position: center;
-height :150px;
-width: 150px;
+.box {
+  display: flex;
+  flex-direction: row;
+  align-items: justify;
 }
 
+.checkbox-bipolar-input {
+  display: none;
+}
+.checkbox-bipolar-input:checked + label .checkbox-bipolar:after {
+  left: 18px;
+  right: 2px;
+}
+.checkbox-bipolar-input:checked + label .checkbox-bipolar .on {
+  opacity: 0.5;
+}
+.checkbox-bipolar-input:checked + label .checkbox-bipolar .off {
+  opacity: 0;
+}
+.checkbox-bipolar {
+  margin-right: 15px;
+  width: 36px;
+  height: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  display: inline-block;
+  position: relative;
+}
+.checkbox-bipolar:after {
+  content: '';
+  display: block;
+  position: absolute;
+  background: black;
+  left: 2px;
+  top: 2px;
+  bottom: 2px;
+  right: 18px;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+.checkbox-bipolar .on {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 6px;
+  opacity: 0,5;
+  transition: 0.3s;
+  font-family: sans-serif;
+  font-size: 14px;
+  color:black;
+}
+.checkbox-bipolar .off {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 5px;
+  opacity: 0.5;
+  font-family: sans-serif;
+  transition: 0.3s;
+  font-size: 14px;
+  color:black;
+}
+
+table { 
+  border : none; 
+}

@@ -7,13 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS&Link Anais -->
     <link rel="stylesheet" href="css/au fil des saisons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Passions+Conflict&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&family=Passions+Conflict&display=swap" rel="stylesheet">
     <!-- CSS&Link Seb -->
     <link rel="stylesheet" href="css\Header Bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@100&display=swap" rel="stylesheet">
+    <!-- CSS&Link Alexia -->
+    <link rel="stylesheet" href="css/FooterBlanc.css">
     <title>Au fil des saisons</title>
 </head>
 
@@ -22,9 +27,18 @@
     <header>
         <!-- Navbar -->
      <nav class="navbar navbar-expand-lg navbar-light bg-black">
-         <div class="container-fluid d-flex font">  
-           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-             <!-- Menu navbar -->
+        <!-- Bouton Mon compte -->
+        <div class="btn-group dropstart haut-droite font">
+            <button type="button" class="nopaddingBouton bouton btn btn-secondary btn-black fs-1 text" data-bs-toggle="dropdown" aria-expanded="false">
+              Mon compte
+            </button>
+            <ul class="dropdown-menu dropdown:hover" aria-labelledby="dropdownMenu2">
+                <li><a class="fs-3 text dropdown-item fw-bold" href="inscription.html">Créer mon compte</a></li>
+                <li><a class="fs-3 text dropdown-item fw-bold" href="connexion.html">Se connecter</a></li>
+              </ul>
+          </div>
+          <!-- Container -->
+         <div class="container-fluid d-flex justify-content-center font">
              <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-end">
                <li class="nav-item">
                  <a class="nav-link text-white" href="accueil.html">Accueil</a>
@@ -32,7 +46,7 @@
                <li class="nav-item">
                  <a class="nav-link text-white" href="tous les fromages.html">Tous les fromages</a>
                </li>
-               <div class="d-flex align-items-center">
+               <div>
                  <a class="nav-link text-white" href="accueil.html">
                  <img src="Img\Logo\Logoblanc.png" height="150" width="150" alt="Logo"/></a>
              </div>
@@ -41,90 +55,155 @@
                </li>
                <!-- Menu deroulant -->
              <div class="dropdown">
-                 <button class="btn btn-black fs-1 text dropdown-toggle" type="button" id="dropdownMenu2" data-mdb-toggle="dropdown" aria-expanded="false">
+                 <button class="nopaddingBouton bouton btn btn-black fs-1 text" type="button" id="dropdownMenu2" data-mdb-toggle="dropdown" aria-expanded="false">
                    Fourme-Tout
                  </button>
-                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                   <li><a class="fs-3 text dropdown-item" href="Page Historique1.html">Historique</a></li>
-                   <li><a class="fs-3 text dropdown-item" href="recettes.html">Recettes</a></li>
-                   <li><a class="fs-3 text dropdown-item" href="Quizz les fromages.html">Quiz</a></li>
-                   <li><a class="fs-3 text dropdown-item" href="adresses utiles.html">Adresses utiles</a></li>
-                 </ul>
-             </div>
-             </ul>
+                 <ul class="dropdown-menu dropdown:hover" aria-labelledby="dropdownMenu2">
+                    <li><a class="fs-3 text dropdown-item fw-bold" href="Page Historique1.html" target="_blank">Historique</a></li>
+                    <li><a class="fs-3 text dropdown-item fw-bold" href="recettes.html" target="_blank">Recettes</a></li>
+                    <li><a class="fs-3 text dropdown-item fw-bold" href="quizz.html" target="_blank">Quiz</a></li>
+                    <li><a class="fs-3 text dropdown-item fw-bold" href="adresses utiles.html" target="_blank">Adresses utiles</a></li>
+                  </ul>
            </div>
-         </div>
        </nav>
        <!-- Navbar -->
      </header>
 
-    <main>
+    <main id="cheese-container">
         <div class="pikachu"><img src="img/hiver.jpg" class="imagefromage">
             <p class="mois">Janvier</p>
-            <p>Raclette, Mont d'Or</p>
+            <p>
+                <a href="" data-bs-toggle="modal" data-bs-target="#Raclette">Raclette</a>, 
+                <a href="" data-bs-toggle="modal" data-bs-target="#Vacherin">Vacherin</a>
+            </p>
         </div>
 
         <div class="pikachu"><img src="img/hiver.jpg" class="imagefromage">
             <p class="mois">Février</p>
-            <p>Camembert, Brie, Saint-Marcellin</p>
+            <p>
+                <a href="" data-bs-toggle="modal" data-bs-target="#Camembert">Camembert</a>, 
+                <a href="" data-bs-toggle="modal" data-bs-target="#Brie">Brie</a>, 
+                <a href="error404.html">Saint-Marcellin</a>
+            </p>
         </div>
 
         <div class="pikachu"><img src="img/printemps.jpg" class="imagefromage">
             <p class="mois">Mars</p>
-            <p>Chaource, Neufchâtel</p>
+            <p>
+                <a href="error404.html">Chaource</a>, 
+                <a href="error404.html">Neufchâtel</a>
+            </p>
         </div>
 
         <div class="pikachu"><img src="img/printemps.jpg" class="imagefromage">
             <p class="mois">Avril</p>
-            <p>Époisses, Pont-l’Évêque, Maroilles, Livarot</p>
+            <p>
+                <a href="error404.html">Époisses</a>, 
+                <a href="error404.html">Pont-l’Évêque</a>, 
+                <a href="" data-bs-toggle="modal" data-bs-target="#Maroilles">Maroilles</a>, 
+                <a href="error404.html">Livarot</a>
+            </p>
         </div>
 
         <div class="pikachu"><img src="img/printemps.jpg" class="imagefromage">
             <p class="mois">Mai</p>
-            <p>Saint-Nectaire</p>
+            <p>
+                <a href="error404.html">Saint-Nectaire</a>
+            </p>
         </div>
 
         <div class="pikachu"><img src="img/ete.jpg" class="imagefromage">
             <p class="mois">Juin</p>
-            <p>Cabécou, Pélardon, Chabichou</p>
+            <p>
+                <a href="" data-bs-toggle="modal" data-bs-target="#Cabécou">Cabécou</a>, 
+                <a href="error404.html">Pélardon</a>, 
+                <a href="error404.html">Chabichou</a>
+            </p>
         </div>
 
         <div class="pikachu"><img src="img/ete.jpg" class="imagefromage">
             <p class="mois">Juillet</p>
-            <p>Saint-Nectaire, Cantal jeune, Ossau-Iraty</p>
+            <p>
+                <a href="error404.html">Saint-Nectaire</a>, 
+                <a href="error404.html">Cantal jeune</a>, 
+                <a href="error404.html">Ossau-Iraty</a>
+            </p>
         </div>
 
         <div class="pikachu"><img src="img/ete.jpg" class="imagefromage">
             <p class="mois">Août</p>
-            <p>Comté, Abondance, Beaufort</p>
+            <p>
+                <a href="error404.html">Comté</a>, 
+                <a href="error404.html">Abondance</a>, 
+                <a href="error404.html">Beaufort</a>
+            </p>
         </div>
 
         <div class="pikachu"><img src="img/automne.jpg" class="imagefromage">
             <p class="mois">Septembre</p>
-            <p>Maroilles, Livarot</p>
+            <p>
+                <a href="" data-bs-toggle="modal" data-bs-target="#Maroilles">Maroilles</a>, 
+                <a href="error404.html">Livarot</a>
+            </p>
         </div>
 
         <div class="pikachu"><img src="img/automne.jpg" class="imagefromage">
             <p class="mois">Octobre</p>
-            <p>Bleus, Fourmes, Roquefort</p>
+            <p>
+                <a href="error404.html">Bleus</a>, 
+                <a href="error404.html">Fourmes</a>, 
+                <a href="" data-bs-toggle="modal" data-bs-target="#Roquefort">Roquefort</a>
+            </p>
         </div>
 
         <div class="pikachu"><img src="img/automne.jpg" class="imagefromage">
             <p class="mois">Novembre</p>
-            <p>Tommes, Salers, Laguiole</p>
+            <p>
+                <a href="error404.html">Tommes</a>, 
+                <a href="error404.html">Salers</a>, 
+                <a href="error404.html">Laguiole</a>
+            </p>
         </div>
 
         <div class="pikachu"><img src="img/hiver.jpg" class="imagefromage">
             <p class="mois">Décembre</p>
-            <p>Comté, Gruyère, Beaufort</p>
+            <p>
+                <a href="" data-bs-toggle="modal" data-bs-target="#Comté">Comté</a>, 
+                <a href="error404.html">Gruyère</a>, 
+                <a href="error404.html">Beaufort</a>
+            </p>
         </div>
         </div>
     </main>
 
+    <footer>
+        <div class="text font d-flex justify-content-evenly text-black">
+            <a href="contact.html" target="_blank" class="lienfooterblanc">CONTACT</a>
+            <a href="A propos.html" target="_blank" class="lienfooterblanc">A PROPOS</a>
+            <a href="CGU.html" target="_blank" class="lienfooterblanc">CGU</a>
+        </div>
+    
+    <div class="logo">
+        <div class="img">
+        <a href="https://www.facebook.com/quiveutdufromage/?ref=page_internal" target="_blank"><img src="Img/Réseaux sociaux+footer/kisspng-facebook-logo-social-media-computer-icons-icon-facebook-drawing-5ab02fb70b9ad5.9813355115214959910475.png" alt="logo" id="logo" width="50px" height="50px" class="mx-5"/></a>
+        </div>
+        <div class="img">
+        <a href="https://www.instagram.com/quiveutdufromage/?hl=fr" target="_blank"><img src="Img/Réseaux sociaux+footer/insta.png" alt= "logo" id="logo" width="100px" height="60px" class="mx-5" /></a>
+        </div>
+        <div class="img">
+        <a href="https://twitter.com/mondialfromage" target="_blank"><img src="Img/Réseaux sociaux+footer/twitter.png" alt="logo" id="logo" width="70px" height="60px" class="mx-5" /></a>
+        </div>
+    </div>
+    </footer>
+
     <!-- Script -->
+    <script type="text/javascript" src="JS/saisons.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
+    <!-- Script Alexia-->
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
     
 </body>
 
