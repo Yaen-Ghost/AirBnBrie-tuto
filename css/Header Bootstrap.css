@@ -21,7 +21,7 @@ justify-content: space-between;
     margin: 0 !important;
 }
 
-    .dropdown:hover .dropdown-menu {
+  .dropdown:hover .dropdown-menu {
       display: block;
       width: 100%;
   }
@@ -34,13 +34,4 @@ justify-content: space-between;
     position: absolute !important;
     right: 10px !important;
     top: 0px !important;
-  }
-
-  .list-to-linline, .list-to-linline li{
-    margin : 0;
-    padding : 0;
-    list-style : none;
-  }
-  .list-to-linline li{
-    display : inline-block
   }
