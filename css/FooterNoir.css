@@ -34,4 +34,10 @@ filter: grayscale(0%); /* Firefox */ }
 -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
 filter: grayscale(100%); /* Firefox */ }
 
-a:visited {color: white;}
+
+.lienfooternoir{
+  color: white;
+}
+.lienfooternoir:hover{
+  color: white;
+}
