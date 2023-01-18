@@ -25,6 +25,17 @@
     <header>
         <!-- Navbar -->
      <nav class="navbar navbar-expand-lg navbar-light bg-black">
+        <!-- Bouton Mon compte -->
+        <div class="btn-group dropstart haut-droite font">
+            <button type="button" class="nopaddingBouton bouton btn btn-secondary btn-black fs-1 text" data-bs-toggle="dropdown" aria-expanded="false">
+              Mon compte
+            </button>
+            <ul class="dropdown-menu dropdown:hover" aria-labelledby="dropdownMenu2">
+                <li class="list-to-linline"><a class="fs-3 text dropdown-item fw-bold" href="inscription.html">Créer mon compte</a></li>
+                <li class="list-to-linline"><a class="fs-3 text dropdown-item fw-bold" href="connexion.html">Se connecter</a></li>
+              </ul>
+          </div>
+          <!-- Container -->
          <div class="container-fluid d-flex justify-content-center font">
              <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-end">
                <li class="nav-item">
@@ -49,7 +60,7 @@
                     <li><a class="fs-3 text dropdown-item fw-bold" href="Page Historique1.html" target="_blank">Historique</a></li>
                     <li><a class="fs-3 text dropdown-item fw-bold" href="recettes.html" target="_blank">Recettes</a></li>
                     <li><a class="fs-3 text dropdown-item fw-bold" href="quizz.html" target="_blank">Quiz</a></li>
-                    <li><a class="fs-3 text dropdown-item fw-bold" href="adresses utiles.html" target="_blank">Adresses utiles</a></li>
+                    <li><a class="fs-3 text dropdown-item fw-bold" href="bonnes adresses.html" target="_blank">Bonnes adresses</a></li>
                   </ul>
            </div>
        </nav>
@@ -65,11 +76,31 @@
 
                     <h4>Filtrer par</h4>
                     <hr class="hacheair">
-                    <p>Régions</p>
+                    <h5>Régions</h5>
                     <button class="boutonfiltre text-decoration-none text-dark" onclick='show("Ile-de-France")'>Ile-de-France</button>
+                    <button class="boutonfiltre text-decoration-none text-dark" onclick='show("Hauts-de-France")'>Hauts-de-France</button>
+                    <button class="boutonfiltre text-decoration-none text-dark" onclick='show("Normandie")'>Normandie</button>
+                    <button class="boutonfiltre text-decoration-none text-dark" onclick='show("Bretagne")'>Bretagne</button>
+                    <button class="boutonfiltre text-decoration-none text-dark" onclick='show("PaysdelaLoire")'>Pays de la Loire</button>
+                    <button class="boutonfiltre text-decoration-none text-dark" onclick='show("CentreValdeLoire")'>Centre Val de Loire</button>
+                    <button class="boutonfiltre text-decoration-none text-dark" onclick='show("GrandEst")'>Grand Est</button>
+                    <button class="boutonfiltre text-decoration-none text-dark" onclick='show("BourgogneFrancheComte")'>Bourgogne Franche Comté</button>
+                    <button class="boutonfiltre text-decoration-none text-dark" onclick='show("NouvelleAquitaine")'>Nouvelle Aquitaine</button>
+                    <button class="boutonfiltre text-decoration-none text-dark" onclick='show("AuvergneRhoneAlpes")'>Auvergne Rhône Alpes</button>
+                    <button class="boutonfiltre text-decoration-none text-dark" onclick='show("Occitanie")'>Occitanie</button>
+                    <button class="boutonfiltre text-decoration-none text-dark" onclick='show("PACA")'>PACA</button>
+                    <button class="boutonfiltre text-decoration-none text-dark" onclick='show("Corse")'>Corse</button>
 
+                    <button class="boutonfiltre text-decoration-none text-dark" onclick="$('.bidon').show()">Voir tout</button>
+        
                     <hr class="hacheair">
-                    <p>Laitages</p>
+                    <h5>Laitages</h5>
+                    <button class="boutonfiltre text-decoration-none text-dark" onclick='show("Vache")'>Vache</button>
+                    <button class="boutonfiltre text-decoration-none text-dark" onclick='show("Brebis")'>Brebis</button>
+                    <button class="boutonfiltre text-decoration-none text-dark" onclick='show("Chevre")'>Chèvre</button>
+                    <button class="boutonfiltre text-decoration-none text-dark" onclick='show("Yack")'>Yack</button>
+
+                    <button class="boutonfiltre text-decoration-none text-dark" onclick="$('.bidon').show()">Voir tout</button>
 
                 </div><!--Ferme la première colonne -->
 
@@ -110,6 +141,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
     <!-- MDB -->
     <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script> -->
     <!-- Script Alexia-->
@@ -117,9 +151,10 @@
 
     <script>
         function show(champ) {
-            $('.div').hide()
+            $('.bidon').hide()
             $('div.' + champ).show()
         }
+
     </script>
 
 </body>

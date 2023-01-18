@@ -31,17 +31,6 @@ let cheeseContainer = document.getElementById("cheese-container");
 
 for (let fromage of listetouslesfromages) {
   const newDiv = document.createElement("div");
-  newDiv.setAttribute("class", `bidon mx-5px ${fromage.region} ${fromage.laitage}`);
-  newDiv.setAttribute("data-bs-toggle","modal");
-  newDiv.setAttribute("data-bs-target",`#${fromage.nom}`);
-  newDiv.innerHTML=`
-  <div class="flex-col items-center cheese">
-      <img src="${fromage.image}" class="imagefromage">
-
-      <div class="bg">
-          <div>${fromage.nom}</div>
-      </div>
-  </div>`
 
   const modalPop = document.createElement("div");
   modalPop.setAttribute("class","modal animate__animated animate__jackInTheBox");
@@ -79,6 +68,4 @@ modalPop.innerHTML = `
 
 
 cheeseContainer.appendChild(modalPop)
-
-cheeseContainer.appendChild(newDiv)
 }
