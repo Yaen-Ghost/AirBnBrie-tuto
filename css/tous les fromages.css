@@ -27,6 +27,12 @@ body{
   opacity: 1;
 }
 
+.boutonfiltre {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 5px;    
+  border-radius: 20px;
+}
+
 /* COLONNE DROITE */
 .containerfromage {
   display: flex; /* or inline-flex */
@@ -36,9 +42,7 @@ body{
   align-items: flex-start;
   padding: 10px;
   background-color: rgba(149, 149, 149, 0.5);
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border-top-right-radius: 20px;
+  border-radius: 20px;
 }
 
 .imagefromage{
