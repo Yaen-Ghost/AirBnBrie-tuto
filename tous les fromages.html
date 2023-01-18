@@ -73,7 +73,7 @@
             <div class="container d-flex flex-row gap-4 justify-content-start">
                 <!--La ligne qui contient la colonne et la liste des fromages -->
                 <div class="flex-column fondcolonne w-25">
-
+                  <p id="demo"></p>
                     <h4>Filtrer par</h4>
                     <hr class="hacheair">
                     <p>Régions</p>
@@ -132,6 +132,10 @@
             $('div.' + champ).show()
         }
     </script>
+<script>
+  document.getElementById("demo").innerHTML = 
+  "The full URL of this page is:<br>" + window.location.href;
+  </script>
 
 </body>
 
