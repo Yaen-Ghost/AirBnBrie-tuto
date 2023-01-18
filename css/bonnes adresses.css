@@ -30,7 +30,6 @@ body{
     border-radius: 10px;
     width: 540px;
     height: 800px;
-
   }
 
 .titre{
@@ -48,3 +47,11 @@ body{
     font-size: 30px;
     text-align:center;
 }
+
+.liennoir{
+    color: black;
+  }
+
+  .liennoir:hover{
+    color: black;
+  }
