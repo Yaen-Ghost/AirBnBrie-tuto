@@ -9,9 +9,8 @@ body{
     background-image  : url(../Img/Fonds/888.jpg);
     background-repeat : no-repeat;
     background-size: cover;
-    background-position: fixed;
-    background-position:center;
-    height: 1260px;
+    background-position: center;
+    height: 1380px;
   }
 
   .container{
@@ -20,7 +19,7 @@ body{
     flex-wrap: nowrap;
     justify-content: left;
     align-items: left;
-    margin-top: 85px;
+    margin-top: 60px;
     margin-bottom: 150px;
 }
 
@@ -44,3 +43,8 @@ body{
     font-size: 30px;
 }
 
+.para1 {
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 30px;
+    text-align:center;
+}
