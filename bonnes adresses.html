@@ -66,11 +66,13 @@
    <!-- Navbar -->
  </header>
 
-     <div class="para1"><a href="error404.html">Auvergne Rhône Alpes</a> - Bourgogne Franche Comté - Bretagne - Centre Val de Loire - Corse - Grand Est </div>
-     <div class="para1">Hauts de France - Ile de France - Normandie - Nouvelle Aquitaine </div>
-     <div class="para1">Occitanie - Pays de la Loire - Provence Alpes Côte d'Azur</div>
+     <div class="para1"><a href="error404.html" class="liennoir">Auvergne Rhône Alpes</a> - <a href="error404.html" class="liennoir">Bourgogne Franche Comté</a> - <a href="error404.html" class="liennoir">Bretagne</a> - <a href="error404.html" class="liennoir">Centre Val de Loire</a> - <a href="error404.html" class="liennoir">Corse</a> - <a href="" onclick='show("GrandEst")'>Grand Est </a></div>
+     <div class="para1"><a href="error404.html" class="liennoir">Hauts de France</a> - <a href="error404.html" class="liennoir">Ile de France</a> - <a href="error404.html" class="liennoir">Normandie</a> - <a href="" onclick='show("NouvelleAquitaine")'>Nouvelle Aquitaine </a></div>
+     <div class="para1"><a href="error404.html" class="liennoir">Occitanie</a> - <a href="error404.html" class="liennoir">Pays de la Loire</a> - <a href="" onclick='show("PACA")'></a>Provence Alpes Côte d'Azur</a></div>
 
   <main class="container">
+
+  <div class="bidule NouvelleAquitaine">
     <img src="Img/Carte France/Nouvelle aquitaine.png" width="550px" alt="Nouvelle-Aquitaine">
   
 
@@ -91,7 +93,7 @@
       Service de livraison <br/>
       Téléphone : +33 9 75 54 05 69<br/>
       <a href="https://www.laboitedufromager.com" target="_blank">Site web</a></p>
-
+</div>
   </div>
 
 </main>
@@ -125,6 +127,14 @@
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
   <!-- Script Alexia-->
   <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+ 
+
+   <script>
+    function show(champ) {
+        $('.bidule').hide()
+        $('main.' + champ).show()
+    }
+</script>
 
 </body>
 </html>
