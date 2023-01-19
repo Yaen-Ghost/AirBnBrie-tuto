@@ -1,0 +1,43 @@
+
+footer {
+    background-image : url(../Img/Footerdetour.png);
+    background-repeat : no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 300px;
+    }
+
+    .reseau{
+      text-align: center;
+      height: 5px;
+      width: 5px;
+    }
+    
+    .logo{
+      display : flex;
+      justify-content: center;
+      margin-top: 50px;
+      margin-right: 50px;
+    }
+    
+    .font{
+      font-family: 'Alumni Sans', sans-serif;
+      font-size: 40px;
+      color:rgb(20, 20, 20)
+    }
+    
+    .img:hover{
+    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%); /* Firefox */ }
+    
+    .img{
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%); /* Firefox */ }
+
+    .lienfooterblanc{
+      color: black;
+    }
+    
+    .lienfooterblanc:hover{
+      color: black;
+    }

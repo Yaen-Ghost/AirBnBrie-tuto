@@ -1,5 +1,10 @@
 body{
     margin: 0px;
+    background-image: url('/Img/Fonds/accueil.png');
+    background-repeat : no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    background-position:center;
 }
 
 .imagefromage{
