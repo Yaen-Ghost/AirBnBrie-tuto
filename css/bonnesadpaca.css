@@ -1,0 +1,57 @@
+
+a {
+    color:black;
+}
+
+body{
+    width : auto;
+    padding-top : auto;
+    background-image  : url(../Img/Fonds/888.jpg);
+    background-repeat : no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1510px;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: left;
+    align-items: left;
+    margin-top: 60px;
+    margin-bottom: 150px;
+}
+
+.encadrer-un-contenu{
+    background-color:rgba(201, 199, 199, 0.522);
+    padding: 15px;
+    margin-top: 40px;
+    border-radius: 10px;
+    width: 540px;
+    height: 850px;
+  }
+
+.titre{
+    font-family: 'Bonheur Royale', cursive;
+    font-size: 47px;
+}
+
+.paragraphe{
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 30px;
+}
+
+.para1 {
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 30px;
+    text-align:center;
+}
+
+.liennoir{
+    color: black;
+  }
+
+  .liennoir:hover{
+    color: black;
+  }
