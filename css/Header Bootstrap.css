@@ -36,7 +36,7 @@ justify-content: space-between;
     top: 0px !important;
   }
   
-  .profilepic{
+  .profilepic2{
     clip-path: ellipse(50% 50%);
     object-fit: cover; 
       width: 95px;
