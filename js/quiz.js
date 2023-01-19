@@ -9,7 +9,7 @@ const quizData = [
         correct: "d",
     },
     {
-        question: "2. De quelle région est originaire le fromage la fourme d'Ambert  ?",
+        question: "2. De quelle région est originaire le fromage la fourme d'Ambert ?",
         img: 'cc',
         a: "Limousin",
         b: "Rhone-Alpes",
@@ -36,7 +36,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "5. D'où est l'originaire le broccio",
+        question: "5. D'où est l'originaire le broccio ?",
         img: 'cc',
         a: "De Corse",
         b: "D'Italie",
@@ -54,7 +54,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "7. DE quelle région est originaire le Mont D'Or ?",
+        question: "7. De quelle région est originaire le Mont D'Or ?",
         img: 'cc',
         a: "Poitou-Charantes",
         b: "Franche Comté",
@@ -63,7 +63,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "8.Avec le lait de quel animalfabrique-t-on l'ossau-iraty ?",
+        question: "8. Avec le lait de quel animal fabrique-t-on l'ossau-iraty ?",
         img: 'cc',
         a: "La chévre",
         b: "La brebis",
@@ -72,7 +72,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "9. DE quelle région est originaire le fromage le saint-nectaire ",
+        question: "9. De quelle région est originaire le fromage le saint-nectaire ?",
         img: 'cc',
         a: "Auvergne",
         b: "L'Aquitaine",
@@ -81,7 +81,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "10. Avec le lait de quel animal produit-on le fromage l'Abondance  ?",
+        question: "10. Avec le lait de quel animal produit-on le fromage l'Abondance ?",
         img: 'cc',
         a: "La brebis",
         b: "la chévre",
