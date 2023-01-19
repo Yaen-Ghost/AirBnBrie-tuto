@@ -179,7 +179,7 @@
             <br>
             <h4 class="fondtitres">🤤 Cheeselist</h4>
             <h3 class="bg-titre" onclick="toggleTable()"><iconify-icon
-                    icon="material-symbols:arrow-circle-down-outline-rounded"></iconify-icon> Ile-de-France</h3>
+                    icon="material-symbols:arrow-circle-down-outline-rounded"></iconify-icon> Occitanie</h3>
             <table id="table" class="tableau">
                 
             </table>
@@ -228,26 +228,26 @@
 
         const tableIdf = [
             {
-                img: "cc",
-                nom: "Coulommiers",
+                img: "Img/Tous les fromages/cabrioulet.jpg",
+                nom: "Cabrioulet",
                 id: "line1",
                 numberLine:0
             },
             {
-                img: "cc",
-                nom: "cc",
+                img: "Img/Tous les fromages/pitchounet.jpg",
+                nom: "Pitchounet",
                 id: "line2",
                 numberLine:1
             },
             {
-                img: "cc",
-                nom: "Coulommiers",
+                img: "Img/Tous les fromages/cabecou.jpg",
+                nom: "Cabécou",
                 id: "line3",
                 numberLine:2
             },
             {
-                img: "cc",
-                nom: "Coulommiers",
+                img: "Img/Tous les fromages/pelardon.jpg",
+                nom: "Pélardon",
                 id: "line4",
                 numberLine:3
             },
@@ -263,7 +263,7 @@
             }
             newTr.setAttribute("id",`${item.id}`)
             let td1 = document.createElement('td');
-            td1.innerText = `${item.img}`;
+            td1.innerHTML = `<img src="${item.img}" class="imagetableau">`;
             let td2 = document.createElement('td');
             td2.innerText = `${item.nom}`;
             let td3 = document.createElement('td');

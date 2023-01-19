@@ -196,7 +196,11 @@ text-align: center;
     width: 600px;
 }
 
-
+.imagetableau{
+  width: 100px;
+  height: 45px;
+  object-fit: cover;
+}
 
   /*REDIMENSIONNEMENT DES IMAGES FROMAGE*/
   .imagefromage{
