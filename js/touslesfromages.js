@@ -79,7 +79,7 @@ modalPop.innerHTML = `
                 <span class="mx-2"><p>Laitage: ${fromage.laitage}</p>
                     <p>Région: ${fromage.region}</p>
                     
-                    <p>Saison: ${fromage.saison}</p>
+                    <p>Période: ${fromage.saison}</p>
                 </span>
             </div>  
                 <div class="d-flex flex-row my-3">
